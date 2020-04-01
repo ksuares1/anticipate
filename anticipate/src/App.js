@@ -12,6 +12,8 @@ function App() {
         <p>Login</p>
       </nav>
       <Carousel/>
+      <Cards/>
+      <Div/>
 
     </div>
   );
