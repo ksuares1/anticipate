@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Jumbotron from './components/Jumbotron/Jumbotron.js';
+import Carousel from './components/Carousel/Carousel.js';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <p>Contact</p>
         <p>Login</p>
       </nav>
-
+      <Carousel/>
 
     </div>
   );
