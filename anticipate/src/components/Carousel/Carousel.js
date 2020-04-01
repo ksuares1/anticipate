@@ -11,7 +11,10 @@ const Carousel = () => {
                 />
                 <Carousel.Caption>
                     <h3>Anticipate</h3>
-                    <p>Meet the app that changing the way the medical community interacts with patients</p>
+                    <p>Meet the app that's changing the way the medical community interacts with patients</p>
+                    <>
+                    <Button variant="outline-secondary">Find Out More</Button>{' '}
+                    </>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -22,8 +25,11 @@ const Carousel = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>What's the last conversation that you had with your nurse or doctor?</h3>
+                    <p>Help us continue to develop more features to create connectivity with patients.</p>
+                    <>
+                    <Button variant="outline-secondary">Learn More</Button>{' '}
+                    </>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -34,8 +40,11 @@ const Carousel = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Contact Us</h3>
+                    <p>For additional information about Anticipate, reach out us.</p>
+                    <>
+                    <Button variant="outline-secondary">Contact</Button>{' '}
+                    </>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
