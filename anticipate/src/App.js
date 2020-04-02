@@ -9,7 +9,7 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 // import Vitals from './components/Vitals/Vitals.js';
 // import Family from './components/Family/Family.js';
-// import Cards from './components/Cards/Cards.js';
+import CardComponent from './components/Cards/Cards.js';
 import Div from './components/Div/Div.js';
 // import Action from './components/Action/Action.js;
 
@@ -40,7 +40,7 @@ function App() {
       <br>
       </br>
       <Carousel />
-      {/* <Cards/> */}
+       <CardComponent/> 
         <Div />
       {/* <Action/> */}
       {/* {</Family} */}
