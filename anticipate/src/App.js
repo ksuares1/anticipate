@@ -43,6 +43,11 @@ function App() {
       {/* <Cards/> */}
        <Div/> 
       {/* <Action/> */}
+      <div>
+            <footer>
+            <p> Anticipate &copy; Copyright 2020</p>
+            </footer>
+        </div>
 
     </div>
   );
