@@ -7,9 +7,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
-
+// import Vitals from './components/Vitals/Vitals.js';
+// import Family from './components/Family/Family.js';
 // import Cards from './components/Cards/Cards.js';
- import Div from './components/Div/Div.js';
+import Div from './components/Div/Div.js';
 // import Action from './components/Action/Action.js;
 
 
@@ -25,10 +26,9 @@ function App() {
             <Nav.Link href="#link">Family</Nav.Link>
             <NavDropdown title="Nurse" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Patient</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Temperature</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Vitals</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Call Patient</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">Contact Patient</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Form inline>
@@ -41,15 +41,17 @@ function App() {
       </br>
       <Carousel />
       {/* <Cards/> */}
-       <Div/> 
+        <Div />
       {/* <Action/> */}
+      {/* {</Family} */}
+      {/* </Vitals> */}
       <div>
-      <br>
-      </br>   
-            <footer>
-            <p> Anticipate &copy; Copyright 2020</p>
-            </footer>
-        </div>
+        <br>
+        </br>
+        <footer>
+          <p> Anticipate &copy; Copyright 2020</p>
+        </footer>
+      </div>
 
     </div>
   );
