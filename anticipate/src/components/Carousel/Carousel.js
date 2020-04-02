@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
+// import image from '../../assets/img/national-cancer-institute-701-FJcjLAQ-unsplash.jpg'
 
 const CarouselComponent = () => {
     return (
@@ -7,7 +8,7 @@ const CarouselComponent = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src=".public/img/patient-doctor.jpg /800x400?text=Anticipate&bg=373940"
+                    src={require("../../assets/img/patient-doctor.jpg")}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -21,7 +22,7 @@ const CarouselComponent = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    src={require("../../assets/img/doctor-visit.jpg")}
                     alt="Third slide"
                 />
 
@@ -36,7 +37,7 @@ const CarouselComponent = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    src={require("../../assets/img/patient.jpg")}
                     alt="Third slide"
                 />
 
