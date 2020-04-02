@@ -40,6 +40,8 @@ function App() {
       <br>
       </br>
       <Carousel />
+      <br>
+      </br>
        <CardComponent/> 
         <Div />
       {/* <Action/> */}
