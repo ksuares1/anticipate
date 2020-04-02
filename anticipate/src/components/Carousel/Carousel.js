@@ -8,8 +8,8 @@ const CarouselComponent = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={require("../../assets/img/patient-doctor.jpg")}
-                    alt="First slide"
+                    src={require("../../assets/img/doctor-visit.jpg")}
+                    alt="Doctor patient visit"
                 />
                 <Carousel.Caption>
                     <h3>Anticipate</h3>
@@ -22,8 +22,8 @@ const CarouselComponent = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={require("../../assets/img/doctor-visit.jpg")}
-                    alt="Third slide"
+                    src= {require("../../assets/img/patient-doctor.jpg")}
+                    alt="Doctor speaking with patient"
                 />
 
                 <Carousel.Caption>
@@ -38,7 +38,7 @@ const CarouselComponent = () => {
                 <img
                     className="d-block w-100"
                     src={require("../../assets/img/patient.jpg")}
-                    alt="Third slide"
+                    alt="Patient alone"
                 />
 
                 <Carousel.Caption>
