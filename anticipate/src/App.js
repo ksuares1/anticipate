@@ -24,9 +24,9 @@ function App() {
       <Nav.Link href="#home">About</Nav.Link>
       <Nav.Link href="#link">Family</Nav.Link>
       <NavDropdown title="Nurse" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Temperature</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Vitals</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Additional Information</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1">Patient</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Temperature</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Vitals</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Call Patient</NavDropdown.Item>
       </NavDropdown>
