@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "ask-sdk": "^2.7.0"
+    "ask-sdk": "^2.7.0",
+    "bootstrap": "^4.4.1",
+    "react-bootstrap": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
