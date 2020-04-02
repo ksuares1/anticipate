@@ -44,6 +44,8 @@ function App() {
        <Div/> 
       {/* <Action/> */}
       <div>
+      <br>
+      </br>   
             <footer>
             <p> Anticipate &copy; Copyright 2020</p>
             </footer>
