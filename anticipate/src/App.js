@@ -42,10 +42,12 @@ function App() {
       <Carousel />
       <br>
       </br>
-       <CardComponent/> 
-        <Div />
-        <FormComponent/>
-      
+      <CardComponent />
+      <Div />
+      <br>
+      </br>
+      <FormComponent />
+
       <div>
         <br>
         </br>

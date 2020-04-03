@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 const FormComponent = () => {
     return (
+        <div>
         <Form>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -19,12 +20,11 @@ const FormComponent = () => {
                 <Form.Control type="password" placeholder="Password" />
             </Form.Group>
             <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
-            <Button variant="primary" type="submit">
-                Submit
-  </Button>
+            <Button variant="outline-dark">Submit</Button>{' '}
+            
         </Form>
+        </div>
     )
 }
 
