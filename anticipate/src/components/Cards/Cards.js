@@ -11,7 +11,7 @@ const CardComponent = () => {
                     <Card.Title>Nurse</Card.Title>
                     <Card.Text>
                         <p> Seamlessly check-in with your patients.</p>
-                        <Button variant="outline-dark">Check-In</Button>{' '}
+                        <Button variant="outline-dark">Login</Button>{' '}
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -21,7 +21,7 @@ const CardComponent = () => {
                     <Card.Title>Family</Card.Title>
                     <Card.Text>
                         <p>Keep track of your family members medications.</p>
-                        <Button variant="outline-dark">Login</Button>{' '}
+                        <Button variant="outline-dark">Track</Button>{' '}
                     </Card.Text>
                 </Card.Body>
 
