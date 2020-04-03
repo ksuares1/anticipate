@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 // import Family from './components/Family/Family.js';
 import CardComponent from './components/Cards/Cards.js';
 import Div from './components/Div/Div.js';
-// import Action from './components/Action/Action.js;
+import FormComponent from './components/Action/Action.js';
 
 
 function App() {
@@ -44,9 +44,8 @@ function App() {
       </br>
        <CardComponent/> 
         <Div />
-      {/* <Action/> */}
-      {/* {</Family} */}
-      {/* </Vitals> */}
+        <FormComponent/>
+      
       <div>
         <br>
         </br>
