@@ -5,18 +5,18 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
 const AboutComponent = () => {
-    return(
+    return (
         <Jumbotron fluid>
-  <Container>
-    <h1>Nurses are the champions of the world!</h1>
-    <p>
-     Please login to the nurse portal to gain access to the patient database.
+            <Container>
+                <h1>Nurses are the champions of the world!</h1>
+                <p>
+                    Please login to the nurse portal to gain access to the patient database.
     </p>
-  </Container>
-</Jumbotron>
+            </Container>
+        </Jumbotron>
 
     )
-    }
+}
 
 
-    export default AboutComponent;
+export default AboutComponent;

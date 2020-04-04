@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Carousel from './components/Carousel/Carousel.js';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -9,9 +8,7 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 // import Vitals from './components/Vitals/Vitals.js';
 // import Family from './components/Family/Family.js';
-import CardComponent from './components/Cards/Cards.js';
-import Div from './components/Div/Div.js';
-import FormComponent from './components/Action/Action.js';
+
 
 
 
@@ -39,16 +36,8 @@ function App() {
           </Form>
         </Navbar.Collapse>
       </Navbar>
-      {/* <br>
-      </br>
-      <Carousel />
-      <br>
-      </br>
-      <CardComponent />
-      <Div />
-      <br>
-      </br>
-      <FormComponent /> */}
+    
+     
   
 
       <div>
