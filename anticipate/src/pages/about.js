@@ -8,8 +8,7 @@ const AboutComponent = () => {
   <Container>
     <h1>Nurses are the champions of the world!</h1>
     <p>
-      This is a modified jumbotron that occupies the entire horizontal space of
-      its parent.
+     Please login to the nurse portal to gain access to the patient database.
     </p>
   </Container>
 </Jumbotron>
