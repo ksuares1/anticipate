@@ -12,6 +12,7 @@ import Button from 'react-bootstrap/Button';
 import CardComponent from './components/Cards/Cards.js';
 import Div from './components/Div/Div.js';
 import FormComponent from './components/Action/Action.js';
+import AboutComponent from './pages/About.js';
 
 
 function App() {

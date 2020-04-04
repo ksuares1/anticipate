@@ -5,3 +5,5 @@ const AboutComponent = () => {
 
     )
     }
+
+    export default AboutComponent;
