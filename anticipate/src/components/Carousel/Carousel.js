@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 // import image from '../../assets/img/national-cancer-institute-701-FJcjLAQ-unsplash.jpg'
 import Button from 'react-bootstrap/Button';
+
 const CarouselComponent = () => {
     return (
         <Carousel>
