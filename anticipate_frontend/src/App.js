@@ -15,11 +15,7 @@ import AboutComponent from '../../anticipate_frontend/src/pages/About.js';
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route exact path="/about" component={AboutComponent} />
-        </Switch>
-      </Router>
+   
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Anticipate</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

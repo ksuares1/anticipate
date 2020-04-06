@@ -6,7 +6,7 @@ import {
     Link
   } from "react-router-dom";
 
-  import AboutComponent from './pages/About.js';
+  import AboutComponent from './pages/About.js.js';
 
   export default () => (
       <div>
