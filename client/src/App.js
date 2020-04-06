@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -8,13 +9,17 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 // import Vitals from './components/Vitals/Vitals.js';
 // import Family from './components/Family/Family.js';
-
-
+import AboutComponent from './pages/About.js';
 
 
 function App() {
   return (
     <div className="App">
+      <Router>
+        <Switch>
+          <Route exact path="/about" component={AboutComponent} />
+        </Switch>
+      </Router>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Anticipate</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -36,8 +41,6 @@ function App() {
           </Form>
         </Navbar.Collapse>
       </Navbar>
-
-
 
 
       <div>
