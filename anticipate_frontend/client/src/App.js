@@ -1,43 +1,26 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
+import NavBar from 'react-bootstrap/Navbar';
 // import Vitals from './components/Vitals/Vitals.js';
 // import Family from './components/Family/Family.js';
-import AboutComponent from '../../anticipate_frontend/src/pages/About.js';
-
+import AboutComponent from './pages/About.js';
+import showVitals from "./pages/Vitals.js";
+import HomeComponent from "./pages/Home.js";
 
 function App() {
   return (
-    <div className="App">
-   
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">Anticipate</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="#link">Family</Nav.Link>
-            <NavDropdown title="Nurse" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Sign-up</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Patient</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">ReadyGo</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-info">Search</Button> 
-          </Form>
-        </Navbar.Collapse>
-      </Navbar>
-
+    <div>
+      <Router>
+        <div>
+          <NavBar />
+          <div>
+            <Route exact path="/" component={HomeComponent} /> 
+            <Route exact path="/about" component={AboutComponent} />
+            <Route exact path="/vitals" component={showVitals} />
+          </div>
+        </div>
+      </Router>
 
       <div>
         <br>
@@ -46,7 +29,6 @@ function App() {
           <p> Anticipate &copy; Copyright 2020</p>
         </footer>
       </div>
-
     </div>
   );
 }

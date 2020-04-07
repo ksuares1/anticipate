@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import Vitals from './components/Cards/Cards.js';
+// import './App.css';
+import Vitals from '../components/Cards/Vital-Cards.js';
 
-class showVitals {
-render() {
-    return (
-        <Vitals />
-    );
+function showVitals() {
+  return (
+      <Vitals />
+  );
 }
-}
+export default showVitals;
