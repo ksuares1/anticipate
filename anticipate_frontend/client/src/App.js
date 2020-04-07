@@ -4,9 +4,9 @@ import './App.css';
 import NavBar from 'react-bootstrap/Navbar';
 // import Vitals from './components/Vitals/Vitals.js';
 // import Family from './components/Family/Family.js';
-import AboutComponent from '../../anticipate_frontend/src/pages/About.js';
-import showVitals from "../../anticipate_frontend/src/pages/Vitals.js";
-import HomeComponent from "../../anticipate_frontend/src/pages/Home.js";
+import AboutComponent from './pages/About.js';
+import showVitals from "./pages/Vitals.js";
+import HomeComponent from "./pages/Home.js";
 
 function App() {
   return (
