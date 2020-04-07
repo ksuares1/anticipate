@@ -1,11 +1,11 @@
 import React from 'react';
-import Carousel from './components/Carousel/Carousel.js';
-import CardComponent from './components/Cards/Cards.js';
-import Div from './components/Div/Div.js';
-import FormComponent from './components/Action/Action.js'
+import Carousel from '../components/Carousel/Carousel.js';
+import CardComponent from '../components/Cards/Cards.js';
+import Div from '../components/Div/Div.js';
+import FormComponent from '../components/Action/Action.js'
 
 const HomeComponent= () => {
-    render (
+    return (
         <div>
         <Carousel />
         <br>
