@@ -26,7 +26,7 @@ function App() {
         <br>
         </br>
         <footer>
-          <p> Anticipate &copy; Copyright 2020</p>
+          <p className="text-center"> Anticipate &copy; Copyright 2020</p>
         </footer>
       </div>
     </div>
