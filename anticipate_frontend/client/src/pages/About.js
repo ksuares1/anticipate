@@ -7,7 +7,7 @@ const AboutComponent = () => {
         <main>
         <Jumbotron fluid>
             <Container>
-                <h1>Mission </h1>
+                <h1 className="text-center">Mission </h1>
                 <p>
                     Anticipate was created on March 28, 2020 to help nurses and medical professionals connect and communicate with their patients.
                     We believe that communication and transparency plays a vital role in patients overall health.
@@ -20,7 +20,7 @@ const AboutComponent = () => {
 
     <Jumbotron fluid>
         <Container>
-            <h1>Ready Go</h1>
+            <h1 className="text-center">Ready Go</h1>
             <p>
                 This is a simple hero unit, a simple jumbotron-style component for calling
                 extra attention to featured content or information.
