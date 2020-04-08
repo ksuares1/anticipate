@@ -6,10 +6,11 @@ import Button from 'react-bootstrap/Button';
 const FormComponent = () => {
     return (
         <div>
+            <main>
         <Form>
             <h1 className="text-center"> Contact Us </h1>
             <Form.Group controlId="formBasicEmail">
-                <Form.Label>Email address</Form.Label>
+                <Form.Label className="text-center">Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
                 <Form.Text className="text-muted">
                     We'll never share your email with anyone else.
@@ -20,6 +21,7 @@ const FormComponent = () => {
             <Button variant="outline-dark">Submit</Button>{' '}
             
         </Form>
+        </main>
         </div>
     )
 }
