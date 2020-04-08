@@ -7,7 +7,7 @@ const FormComponent = () => {
     return (
         <div>
         <Form>
-            <h1> Contact Us </h1>
+            <h1 className="text-center"> Contact Us </h1>
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
