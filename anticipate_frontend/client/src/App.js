@@ -7,10 +7,12 @@ import NavBar from 'react-bootstrap/Navbar';
 import AboutComponent from './pages/About.js';
 import showVitals from "./pages/Vitals.js";
 import HomeComponent from "./pages/Home.js";
+import Mic from "./pages/Mic.js";
 
 function App() {
   return (
     <div>
+      <Mic />
       <Router>
         <div>
           <NavBar />
