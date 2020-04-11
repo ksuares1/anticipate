@@ -23,8 +23,7 @@ class LoginComponent extends React.Component {
     }
 
     handleSubmit(event) {
-        console.log('sign-up handleSubmit, username:');
-        console.log(this.state.username)
+        console.log('sign-up handleSubmit, username:', this.state.username, this.state.password);
         event.preventDefault()
 
         axios.post("/api/login", {
@@ -36,7 +35,7 @@ class LoginComponent extends React.Component {
                 if (!response.data.errmsg) {
                     console.log('login successful')
                     this.setState({ //redirect to login page
-                        redirectTo: '/login'
+                        redirectTo: '/vitals'
                     })
                 } else {
                     console.log('username already taken')

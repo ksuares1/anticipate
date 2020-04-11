@@ -5,7 +5,7 @@ const userController = require("../controllers/userController.js");
 
 // API Routes
 router.route("/api/signup").post(userController.create);
-router.route("/api/login").get(userController.findById);
+router.route("/api/login").post(userController.find);
 
 
 module.exports = router;
