@@ -5,6 +5,7 @@ class SignupComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            fullname: "",
             username: "",
             password: "",
         };
@@ -12,13 +13,17 @@ class SignupComponent extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleUsername=(event)=>{
-        this.setState({username:event.target.value})
+    handleFullname = (event) =>{
+        this.setState({ fullname: event.target.value })
+    }
+
+    handleUsername = (event) => {
+        this.setState({ username: event.target.value })
 
     }
-    
-    handlePassword=(event)=>{
-        this.setState({password:event.target.value})
+
+    handlePassword = (event) => {
+        this.setState({ password: event.target.value })
 
     }
 
@@ -28,6 +33,7 @@ class SignupComponent extends React.Component {
         event.preventDefault()
 
         axios.post("/api/signup", {
+            fullname: this.state.fullname,
             username: this.state.username,
             password: this.state.password
         })
@@ -51,9 +57,15 @@ class SignupComponent extends React.Component {
         return (
             <form onSubmit={this.handleSubmit}>
                 <label>
+                    Full Name:
+            <input type="text" value={this.state.fullname} onChange={this.handleFullname}
+                    />
+                </label>
+            
+                <label>
                     Username:
-            <input type="text" value={this.state.username} onChange={this.handleUsername} 
-            />
+            <input type="text" value={this.state.username} onChange={this.handleUsername}
+                    />
 
                 </label>
 

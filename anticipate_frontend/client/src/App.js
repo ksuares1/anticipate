@@ -9,6 +9,7 @@ import showVitals from "./pages/Vitals.js";
 import HomeComponent from "./pages/Home.js";
 import Mic from "./pages/Mic.js";
 import SignupComponent from './components/Nurse/Signup';
+import showNurse from './pages/Nurse';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/" component={HomeComponent} /> 
             <Route exact path="/about" component={AboutComponent} />
             <Route exact path="/vitals" component={showVitals} />
+            <Route exact path="/nurse" component={showNurse} />
             <Route exact path="/signup" component={SignupComponent} />
           </div>
         </div>
