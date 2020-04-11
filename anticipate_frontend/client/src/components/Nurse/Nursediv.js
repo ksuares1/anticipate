@@ -7,7 +7,7 @@ function Nurse() {
     <Jumbotron fluid>
       <Container>
         <h1 className="text-align:center">Nurses, doctors, and medical professionals are the heroes of the world!</h1>
-        <p> Please login to the Anticipate portal to gain access our database.
+        <p className="text-align:center"> Please login to the Anticipate portal to gain access our database.
     </p>
       </Container>
     </Jumbotron>
