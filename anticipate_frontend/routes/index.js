@@ -5,6 +5,7 @@ const userController = require("../controllers/userController.js");
 
 // API Routes
 router.route("/api/signup").post(userController.create);
+router.route("/api/login").get(userController.create);
 
 
 module.exports = router;
