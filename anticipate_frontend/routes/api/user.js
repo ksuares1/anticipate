@@ -11,6 +11,6 @@ router
   .route("/:username")
   .get(userController.username)
   .put(userController.update)
-  .delete(booksController.remove);
+  .delete(userController.remove);
 
 module.exports = router;

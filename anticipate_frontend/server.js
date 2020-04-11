@@ -1,5 +1,6 @@
 const express = require("express");
-
+const morgan =require("morgan");
+const session= require('express-session');
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
@@ -13,10 +14,11 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 // Add routes, both API and view
-app.use(routes);
+// app.use(routes);
+app.use('/user', user)
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/anticipatelogin");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/anticipatesignup");
 
 // Start the API server
 app.listen(PORT, function() {

@@ -18,9 +18,11 @@
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "if-env": "^1.0.4",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
