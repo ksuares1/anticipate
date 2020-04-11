@@ -9,7 +9,6 @@ function showNurse() {
         <div>
         <Nurse/>
         <div>
-            <LoginComponent/>
             <SignupComponent/>
             </div>
         </div>
