@@ -9,8 +9,7 @@ function showNurse() {
             <Jumbotron fluid>
                 <Container>
                     <h1 className="text-align:center">Nurses, doctors, and medical professionals are the heroes of the world!</h1>
-                    <p className="text-align:center"> Please login to the Anticipate portal to gain access our database.
-    </p>
+                    <p className="text-align:center"> Please login to your Anticipate account to gain access our database.</p>
                 </Container>
             </Jumbotron>
             <LoginComponent />
