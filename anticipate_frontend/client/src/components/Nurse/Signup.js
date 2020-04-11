@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-class LoginComponent extends React.Component {
+class SignupComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -27,14 +27,14 @@ class LoginComponent extends React.Component {
         console.log(this.state.username)
         event.preventDefault()
 
-        axios.get("/api/login", {
+        axios.post("/api/signup", {
             username: this.state.username,
             password: this.state.password
         })
             .then(response => {
                 console.log(response)
                 if (!response.data.errmsg) {
-                    console.log('login successful')
+                    console.log('successful signup')
                     this.setState({ //redirect to login page
                         redirectTo: '/login'
                     })
@@ -68,4 +68,4 @@ class LoginComponent extends React.Component {
 }
 
 
-export default LoginComponent;
+export default SignupComponent;
