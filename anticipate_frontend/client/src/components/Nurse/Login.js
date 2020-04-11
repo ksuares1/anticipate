@@ -27,7 +27,7 @@ class LoginComponent extends React.Component {
         console.log(this.state.username)
         event.preventDefault()
 
-        axios.get("/api/login", {
+        axios.post("/api/login", {
             username: this.state.username,
             password: this.state.password
         })

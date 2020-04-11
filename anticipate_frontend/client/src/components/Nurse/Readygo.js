@@ -1,10 +1,10 @@
-import React from "react";
-import Mic from "./pages/Mic.js";
+// import React from "react";
+// import Microphone from "./pages/Mic.js";
 
-function showMic(){
-    return(
-        <Mic/>
-    )
-}
+// function showMic(){
+//     return(
+//         <Microphone/>
+//     )
+// }
 
-export default showMic;
+// export default showMic;
