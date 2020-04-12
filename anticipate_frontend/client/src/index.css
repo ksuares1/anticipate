@@ -18,3 +18,24 @@ code {
     height:auto;
   }
 }
+
+.begin{
+  width: 75%;
+  height: 30%;
+  margin: auto;
+}
+
+/* .login-button{
+  /* justify-content: center; */
+/* } */
+ 
+.first-card{
+  width:30%;
+  height:70%;
+  margin:none;
+} 
+
+.message{
+  font-size:30px;
+  text-align:center;
+}

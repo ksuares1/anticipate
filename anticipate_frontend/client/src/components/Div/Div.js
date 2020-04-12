@@ -7,7 +7,7 @@ const Div = () => {
             <br>
             </br>
             <div>
-                <h1 className="text-align:center">Anticipate assists nurses and medical professionals with their interactions with patients.</h1>
+                <h1 className="message">Anticipate assists nurses and medical professionals with their interactions with patients.</h1>
                 <Button variant="outline-dark">Find Out More</Button>{' '}
             </div>
         </main>
