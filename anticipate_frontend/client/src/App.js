@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-// import NavBar from 'react-bootstrap/Navbar';
 import NavBar from './components/Nav';
 // import Vitals from './components/Vitals/Vitals.js';
 // import Family from './components/Family/Family.js';
@@ -10,9 +9,8 @@ import showVitals from "./pages/Vitals.js";
 import HomeComponent from "./pages/Home.js";
 import showMic from './components/Nurse/Readygo';
 import SignComponent from './pages/Signup.js';
-// import Nurse from './components/Nurse/Nursediv';
 import LoginPage from './pages/Login.js';
-// import LoginComponent from './components/Nurse/Login';
+// import showDiv from './components/Div/showDiv';
 
 function App() {
   return (
