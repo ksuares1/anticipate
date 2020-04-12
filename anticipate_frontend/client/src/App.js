@@ -35,7 +35,7 @@ function App() {
       <div>
         <br>
         </br>
-        <footer>
+        <footer className="footer-background">
           <p className="text-center"> Anticipate &copy; Copyright 2020</p>
         </footer>
       </div>
