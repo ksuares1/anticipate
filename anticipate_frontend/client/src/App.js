@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import NavBar from 'react-bootstrap/Navbar';
-// import Vitals from './components/Vitals/Vitals.js';
-// import Family from './components/Family/Family.js';
+import NavBar from './components/Nav/index.js';
 import AboutComponent from './pages/About.js';
 import showVitals from "./pages/Vitals.js";
 import HomeComponent from "./pages/Home.js";
+import showFamily from "./pages/Family.js";
+import Patients from "./pages/Patients.js";
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
             <Route exact path="/" component={HomeComponent} /> 
             <Route exact path="/about" component={AboutComponent} />
             <Route exact path="/vitals" component={showVitals} />
+            <Route exact path="/family" component={showFamily} />
+            <Route exact path="/patients" component={Patients} />
           </div>
         </div>
       </Router>
