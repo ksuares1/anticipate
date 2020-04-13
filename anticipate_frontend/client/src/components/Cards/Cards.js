@@ -9,7 +9,7 @@ const CardComponent = () => {
             <Card className="first-card">
                 <Card.Img variant="top" src={require("../../assets/img/nurse-patient.jpg")} />
                 <Card.Body>
-                    <Card.Title className="text-center">Nurse</Card.Title>
+                    <Card.Title className="nurse-card">Nurse</Card.Title>
                     <Card.Text>
                         <p className="text-center"> Seamlessly check-in with your patients.</p>
                         <Button className="login-button" variant="outline-dark">Login</Button>{' '}
