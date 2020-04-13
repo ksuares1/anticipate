@@ -8,13 +8,15 @@ function showNurse() {
         <div>
             <Jumbotron fluid className="login-jumbo">
                 <Container>
-                    <h1 className="text-align:center">Nurses, doctors, and medical professionals are the heroes of the world!</h1>
-                    <p className="text-align:center"> Please login to your Anticipate account to gain access our database.</p>
+                    <h1>Nurses, doctors, and medical professionals are the heroes of the world!</h1>
+                    <p> Please login to your Anticipate account to gain access our database.</p>
                 </Container>
             </Jumbotron>
             <br>
             </br>
+            <div>
             <LoginComponent />
+            </div>
 
         </div>
 
