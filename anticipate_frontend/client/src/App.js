@@ -15,30 +15,31 @@ import LoginPage from './pages/Login.js';
 function App() {
   return (
     <div>
-      
+
       <Router>
         <div>
           <NavBar />
+          <br>
+          </br>
           <div>
-            <Route exact path="/" component={HomeComponent} /> 
+            <Route exact path="/" component={HomeComponent} />
             <Route exact path="/about" component={AboutComponent} />
             <Route exact path="/vitals" component={showVitals} />
             <Route exact path="/nurse" component={LoginPage} />
-            <Route exact path="/login" component={LoginPage}/> 
-            <Route exact path="/signup" component={SignComponent} /> 
+            <Route exact path="/login" component={LoginPage} />
+            <Route exact path="/signup" component={SignComponent} />
             <Route exact path="/readygo" component={showMic} />
 
           </div>
         </div>
       </Router>
 
-      <div>
-        <br>
-        </br>
-        <footer className="footer-background">
-          <p className="text-center"> Anticipate &copy; Copyright 2020</p>
-        </footer>
-      </div>
+
+      <br>
+      </br>
+      <footer className="footer">
+        <p> Anticipate &copy; Copyright 2020</p>
+      </footer>
     </div>
   );
 }

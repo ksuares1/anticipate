@@ -5,21 +5,21 @@ import Button from 'react-bootstrap/Button';
 
 
 
-const HomeComponent= () => {
+const HomeComponent = () => {
     return (
         <main>
-        <Carousel />
-        <br>
-        </br>
-        <CardComponent />
-        <br>
-        </br>
-        <div>
+            <Carousel />
+            <br>
+            </br>
+            <CardComponent />
+            <br>
+            </br>
+            <div>
                 <h1 className="message">Anticipate assists nurses and medical professionals with their interactions with patients.</h1>
                 <Button variant="outline-dark">Find Out More</Button>{' '}
-        
-         </div>
-         </main>
+
+            </div>
+        </main>
     )
 }
 

@@ -29,17 +29,31 @@ code {
   /* justify-content: center; */
 /* } */
  
-.first-card{
+/* .first-card{
   width:30%;
   height:70%;
   margin:none;
-} 
+}  */
 
 .message{
   font-size:30px;
   text-align:center;
 }
 
-.footer-background{
+.footer{
   background-color:lightblue;
+  text-align:center;
+  width:100%;
+  left:0;
+  bottom:0;
+}
+
+.nurse-card{
+  text-align:center;
+  font-weight:bold;
+}
+.login-jumbo{
+  width:55%;
+  height:45%;
+  margin:auto;
 }
