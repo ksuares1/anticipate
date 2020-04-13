@@ -53,7 +53,21 @@ code {
   font-weight:bold;
 }
 .login-jumbo{
+  /* background-image: url("./assets/img/medic-team.jpg"); */
   width:55%;
-  height:45%;
+  height:35%;
   margin:auto;
+  text-align:center;
+}
+
+/* .form-box{
+float:center;
+} */
+
+.sign-wrapper{
+  text-align:center;
+  width:55%;
+  height:35%;
+  margin:auto;
+
 }

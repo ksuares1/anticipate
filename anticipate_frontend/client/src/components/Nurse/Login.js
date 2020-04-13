@@ -48,7 +48,7 @@ class LoginComponent extends React.Component {
     }
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form className="form-box" onSubmit={this.handleSubmit}>
                 <label>
                     Username:
             <input type="text" value={this.state.username} onChange={this.handleUsername} 
