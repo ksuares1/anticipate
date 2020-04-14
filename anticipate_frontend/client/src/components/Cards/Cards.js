@@ -12,7 +12,7 @@ const CardComponent = () => {
                     <Card.Title className="nurse-card">Nurse</Card.Title>
                     <Card.Text>
                         <p className="text-center"> Seamlessly check-in with your patients.</p>
-                        <Button className="login-button" variant="outline-dark">Login</Button>{' '}
+                        {/* <Button bstyle="default" style={{}} className="login-button" variant="outline-dark">Login</Button>{' '} */}
                     </Card.Text>
                 </Card.Body>
             </Card>

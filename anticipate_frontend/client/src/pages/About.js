@@ -6,7 +6,7 @@ const AboutComponent = () => {
     return (
         <main>
         <Jumbotron fluid>
-            <Container className="">
+            <Container>
                 <h1 className="text-center">Mission </h1>
                 <p>
                     Anticipate was created on March 28, 2020 to help nurses and medical professionals connect and communicate with their patients.
@@ -19,7 +19,7 @@ const AboutComponent = () => {
         </Jumbotron>
 
 
-    <Jumbotron fluid>
+    <Jumbotron fluid className="readygo-info">
         <Container>
             <h1 className="text-center">Ready Go</h1>
             <p>
