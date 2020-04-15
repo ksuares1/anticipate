@@ -3,14 +3,11 @@ import Button from 'react-bootstrap/Button';
 
 const Div = () => {
     return (
-        <main>
-            <br>
-            </br>
-            <div>
+    
+            <div className="index-div">
                 <h1 className="message">Anticipate assists nurses and medical professionals with their interactions with patients.</h1>
-                <Button variant="outline-dark">Find Out More</Button>{' '}
+                <button variant="outline-dark">Find Out More</button>
             </div>
-        </main>
 
     )
 }
