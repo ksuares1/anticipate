@@ -6,6 +6,12 @@ const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+//express session
+app.use(
+  session({
+    secret:'do-not-expose',
+  })
+)
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

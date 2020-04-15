@@ -25,9 +25,6 @@ code {
   margin: auto;
 }
 
-/* .login-button{
-  /* justify-content: center; */
-/* } */
  
 /* .first-card{
   width:30%;
@@ -41,6 +38,7 @@ code {
 }
 
 .footer{
+  position:fixed;
   background-color:lightblue;
   text-align:center;
   width:100%;
@@ -52,12 +50,19 @@ code {
   text-align:center;
   font-weight:bold;
 }
+
+.readygo-info{
+  width:55%;
+  height:35%;
+  margin:auto;
+}
 .login-jumbo{
   /* background-image: url("./assets/img/medic-team.jpg"); */
   width:55%;
   height:35%;
-  margin:auto;
-  text-align:center;
+  margin:0 auto;
+  /* displ
+  text-align:center; */
 }
 
 /* .form-box{
@@ -70,4 +75,9 @@ float:center;
   height:35%;
   margin:auto;
 
+}
+.index-div{
+  display: flex;
+  justify-content:center;
+  /* text-align:center; */
 }

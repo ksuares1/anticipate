@@ -13,11 +13,13 @@ const CarouselComponent = () => {
                     alt="Doctor patient visit"
                 />
                 <Carousel.Caption>
+                    <div className=" ">
                     <h3>Anticipate</h3>
                     <p>Meet the app that's changing the way the medical community interacts with patients</p>
                      <>
                     <Button variant="outline-dark">Find Out More</Button>{' '}
                     </> 
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
