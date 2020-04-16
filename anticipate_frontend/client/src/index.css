@@ -89,6 +89,9 @@ float:center;
 }
 
 .readygo{
-  background-color: aqua;
+  background-color: #5ce1e6;
+}
 
+.readygo{
+  text-align:center;
 }

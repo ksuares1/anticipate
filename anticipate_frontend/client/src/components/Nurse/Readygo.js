@@ -14,9 +14,12 @@ function showMic() {
                      Ready Go helps nurses to quickly send text messages to patients, so they can care for mutiple patients at a time. </p>
                 </Container>
             </Jumbotron>
-            <Microphone />
+           
         </div>
-      
+        <div clasName="readygo-demo">
+        {/* <a href="https://flyclipart.com/iphone-vector-icon-png-iphone-vector-png-887316" title="Iphone Vector Icon Png - Iphone Vector PNG"><img src="https://flyclipart.com/thumb2/iphone-vector-icon-png-887316.png" width="350" /></a> */}
+        <Microphone />
+        </div>
         </main>
     )
 }
