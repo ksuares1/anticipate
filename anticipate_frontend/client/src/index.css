@@ -81,3 +81,9 @@ float:center;
   justify-content:center;
   /* text-align:center; */
 }
+
+.mic-page{
+  width:55%;
+  height:35%;
+  margin:auto;
+}
