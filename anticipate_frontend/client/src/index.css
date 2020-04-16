@@ -25,12 +25,7 @@ code {
   margin: auto;
 }
 
- 
-/* .first-card{
-  width:30%;
-  height:70%;
-  margin:none;
-}  */
+
 
 .message{
   font-size:30px;
@@ -82,11 +77,11 @@ float:center;
   /* text-align:center; */
 }
 
-.mic-page{
+/* .mic-page{
   width:55%;
   height:35%;
   margin:auto;
-}
+} */
 
 .readygo{
   background-color: #5ce1e6;
@@ -94,4 +89,7 @@ float:center;
 
 .readygo{
   text-align:center;
+}
+.readygo-mic{
+  float:right;
 }

@@ -1,12 +1,12 @@
 import React from "react";
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Container from 'react-bootstrap/Container';
 import Microphone from "../../pages/Mic.js";
 
 function showMic() {
     return (
         <main className="readygo">
-        <div className="mic-page" >
+        {/* <div className="mic-page" >
             <Jumbotron fluid>
                 <Container>
                     <h1>Ready Go</h1>
@@ -15,10 +15,12 @@ function showMic() {
                 </Container>
             </Jumbotron>
            
-        </div>
+        </div> */}
         <div clasName="readygo-demo">
-        {/* <a href="https://flyclipart.com/iphone-vector-icon-png-iphone-vector-png-887316" title="Iphone Vector Icon Png - Iphone Vector PNG"><img src="https://flyclipart.com/thumb2/iphone-vector-icon-png-887316.png" width="350" /></a> */}
-        <Microphone />
+        <br>
+        </br>
+       <img src={require("../../assets/img/Ready-Go.png")} alt="ReadyGo"/>
+        <Microphone/>
         </div>
         </main>
     )
