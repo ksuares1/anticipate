@@ -22,7 +22,7 @@ code {
 /* Carousel */
 .carousel-size{
   width: 65%;
-  height: 40%;
+  height: 35%;
   margin: auto;
 }
 
@@ -67,9 +67,9 @@ code {
   background-color: #5ce1e6 ;
 }
 
-/* .form-box{
+.form-box{
 float:center;
-} */
+}
 
 .sign-wrapper{
   text-align:center;

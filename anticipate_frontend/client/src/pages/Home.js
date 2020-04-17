@@ -19,6 +19,11 @@ const HomeComponent = () => {
                 <Button variant="outline-dark">Find Out More</Button>{' '}
 
             </div> */}
+            
+        {/* <footer className="footer">
+          <p> Anticipate &copy; Copyright 2020</p>
+        </footer>
+      */}
         </main>
     )
 }

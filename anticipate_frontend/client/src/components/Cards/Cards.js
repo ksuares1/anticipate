@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 const CardComponent = () => {
     return (
         <CardDeck>
-            <Card className="first-card text-center">
+            <Card className="first-card text-center w-3 p-3">
                 <Card.Img variant="top" src={require("../../assets/img/nurse-patient.jpg")} />
                 <Card.Body>
                     <Card.Title className="nurse-card">Nurse</Card.Title>
@@ -17,7 +17,7 @@ const CardComponent = () => {
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card className="second-card text-center" >
+            <Card className="second-card text-center w-25 p-3" >
                 <Card.Img variant="top" src={require("../../assets/img/family.jpg")} />
                 <Card.Body>
                     <Card.Title className="text-center">Family</Card.Title>
