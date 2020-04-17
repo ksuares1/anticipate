@@ -33,15 +33,16 @@ function App() {
           </div>
         </div>
       </Router>
-    
+
 
       <br>
       </br>
-
-      <footer className="footer">
-        <p> Anticipate &copy; Copyright 2020</p>
-      </footer>
-      {/* {location.pathname !== "/about” && <Footer/>} */}
+      
+        {/* <footer className="footer">
+          <p> Anticipate &copy; Copyright 2020</p>
+        </footer>
+        */}
+        {/* {location.pathname !== "/about” && <Footer/>} */}
     </div>
   );
 }

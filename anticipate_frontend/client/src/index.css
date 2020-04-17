@@ -21,8 +21,8 @@ code {
 
 /* Carousel */
 .carousel-size{
-  width: 75%;
-  height: 30%;
+  width: 65%;
+  height: 40%;
   margin: auto;
 }
 
@@ -32,7 +32,7 @@ code {
 }
 
 .first-car{
-  color:black;
+  color:darkblue;
 }
 .message{
   font-size:30px;
@@ -63,8 +63,6 @@ code {
   width:55%;
   height:35%;
   margin:0 auto;
-  /* displ
-  text-align:center; */
 }
 
 /* .form-box{
