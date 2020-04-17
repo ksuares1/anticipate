@@ -4,31 +4,48 @@ var fs = require('fs');
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://localhost/patientlist"
+    "mongodb://localhost/anticipatesignup"
   );
 
   const patientSeed = [
       {
-          name: "Adam Avocado",
-          mrn: 345678,
-          medications: ["lexapro", "ibuprofen"],
-          heartRate: [81, 110, 99], 
-          oxygenLevel: [99, 95, 97], 
-          temperature: [97, 101, 99], 
-          bloodPressure: [120/80, 180/99, 130/90],
-          location: "HB 7 FL West Room 12 Bed B",
-          image: "../assets/img/Avocado.jpg"
+         name: "Adam Avocado",
+         mrn: "345678",
+         medications: "Ibuprofen",
+         heartRate: 81, 
+         oxygenLevel: 97, 
+         temperature: 99, 
+         bloodPressure: "130/90",
+         location: "HB 7 FL West Room 12 Bed B",
+         contactName: "Ana Avocado",
+         contactType: "Mom",
+         contactNumber: 2128675309,
+         image: "../assets/img/Avocado.jpg"
       },
       {
         name: "Tina Tomato",
         mrn: 345679,
-        medications: ["nalbuphine", "morphine"],
-        heartRate: [81, 110, 99],
-        oxygenLevel: [99, 98, 97], 
-        temperature: [97, 98, 99], 
-        bloodPressure: [120/80, 130/89, 125/90],
+        medications:"Ibuprofen", 
+        heartRate: 110, 
+        oxygenLevel: 97, 
+        temperature: 99, 
+        bloodPressure: "125/90",
         location: "HB 10 FL East Room 10 Bed A",
+        contactName: "Maria Tomato",
+        contactType: "Mom",
+        contactNumber: 2128675309,
         image: "../assets/img/Tomato.jpg"
     }
   ];
 
+  db.Patient
+  .remove({})
+  .then(() => db.Patient.collection.insertMany(patientSeed))
+  .then(data => {
+    console.log(data.result.n + " records inserted!");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });

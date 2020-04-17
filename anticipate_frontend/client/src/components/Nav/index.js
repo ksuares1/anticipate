@@ -1,4 +1,5 @@
 import React from 'react';
+// import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -17,11 +18,11 @@ function NavBar() {
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/family">Family</Nav.Link>
             <NavDropdown title="Nurse" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Login</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Sign-up</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Patient</NavDropdown.Item>
+              <NavDropdown.Item href="/login">Login</NavDropdown.Item>
+              <NavDropdown.Item href="/signup">Sign-up</NavDropdown.Item>
+              <NavDropdown.Item href="/patient">Patient</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">ReadyGo</NavDropdown.Item>
+              <NavDropdown.Item href="/readygo">ReadyGo</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Form inline>
@@ -30,6 +31,7 @@ function NavBar() {
           </Form>
         </Navbar.Collapse>
       </Navbar>
+
     )
 }
 export default NavBar;

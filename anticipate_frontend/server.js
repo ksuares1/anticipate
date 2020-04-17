@@ -1,21 +1,36 @@
+const express = require("express");
+const morgan =require("morgan");
+const session= require('express-session');
 const http = require('http');
-const express = require('express');
 const mongoose = require("mongoose");
 const routes = require("./routes");
-const fs = require('fs');
-const multer = require('multer');
-const MessagingResponse = require('twilio').twiml.MessagingResponse;
-
 const app = express();
+const PORT = process.env.PORT || 3001;
 
+const server = http.createServer(app);
+// const MessagingResponse = require('twilio').twiml.MessagingResponse;
+
+// Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+// Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
+// Add routes, both API and view
+ app.use(routes);
 
-app.use(routes);
+
+// Connect to the Mongo DB
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/anticipatesignup");
+
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/patientlist");
+
+// Start the API server
+server.listen(PORT, function() {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+});
+
 
 //Twilio Server 
 
@@ -33,24 +48,3 @@ http.createServer(app).listen(1337, () => {
 });
 
 //End of Twilio server 
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/patientlist");
-
-// Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-});
-
-//Multer defined to save photo on mongoose database
-app.use(multer({ dest: '../../assets/img/',
-  rename: function (image, filename) {
-    return filename;
-  },
- }));
-
- app.post('/api/patients/:id',function(req,res){
-  var newItem = new Item();
-  newItem.img.data = fs.readFileSync(req.files.patientImage.path)
-  newItem.img.contentType = 'image/png';
-  newItem.save();
- });

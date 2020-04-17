@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 const CarouselComponent = () => {
     return (
-        <Carousel>
+        <Carousel className="begin">
             <Carousel.Item>
                 <img
                     className="d-block w-100"
@@ -22,7 +22,7 @@ const CarouselComponent = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-flex w-100"
                     src= {require("../../assets/img/patient-doctor.jpg")}
                     alt="Doctor speaking with patient"
                 />
@@ -51,8 +51,6 @@ const CarouselComponent = () => {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-
-
     )
 }
 

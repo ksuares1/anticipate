@@ -6,22 +6,22 @@ import Button from 'react-bootstrap/Button';
 const CardComponent = () => {
     return (
         <CardDeck>
-            <Card>
+            <Card className="first-card">
                 <Card.Img variant="top" src={require("../../assets/img/nurse-patient.jpg")} />
                 <Card.Body>
-                    <Card.Title>Nurse</Card.Title>
+                    <Card.Title className="nurse-card">Nurse</Card.Title>
                     <Card.Text>
-                        <p> Seamlessly check-in with your patients.</p>
-                        <Button variant="outline-dark">Login</Button>{' '}
+                        <p className="text-center"> Seamlessly check-in with your patients.</p>
+                        <Button className="login-button" variant="outline-dark">Login</Button>{' '}
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card>
+            <Card className="second-card">
                 <Card.Img variant="top" src={require("../../assets/img/family.jpg")} />
                 <Card.Body>
-                    <Card.Title>Family</Card.Title>
+                    <Card.Title className="text-center">Family</Card.Title>
                     <Card.Text>
-                        <p>Keep track of your family members medications.</p>
+                        <p className="text-center">Keep track of your family members medications.</p>
                         <Button variant="outline-dark">Track</Button>{' '}
                     </Card.Text>
                 </Card.Body>

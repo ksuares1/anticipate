@@ -1,9 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-// import './App.css';
+// import { List, ListItem } from "/List/ptlist.js";
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Microphone from "../../pages/Mic.js";
+import Image from 'react-bootstrap/Image';
+
+
+ 
 
 function Vitals() {
+
     return (
         <div>
             <CardDeck>
@@ -12,7 +21,7 @@ function Vitals() {
                     <Card.Body>
                         <Card.Header>Heart Rate</Card.Header>
                         <Card.Text>
-                            Heart Rate Goes Here:
+                            Heart Rate Goes Here: 
       </Card.Text>
                     </Card.Body>
                 </Card>
@@ -21,7 +30,8 @@ function Vitals() {
                     <Card.Body>
                         <Card.Header>Oxygen Levels</Card.Header>
                         <Card.Text>
-                            Oxygen Levels Goes Here:
+                            Oxygen Levels Goes Here: 
+                        
       </Card.Text>
                     </Card.Body>
                 </Card>
@@ -46,5 +56,9 @@ function Vitals() {
             </CardDeck>
         </div>
     );
-}
+  
+    }
+ 
+
+
 export default Vitals;
