@@ -1,7 +1,7 @@
 import React from "react";
 // import Jumbotron from 'react-bootstrap/Jumbotron';
 // import Container from 'react-bootstrap/Container';
-import Microphone from "../../pages/Mic.js";
+ import Microphone from "../../pages/Mic.js";
 
 function showMic() {
     return (
@@ -16,12 +16,15 @@ function showMic() {
             </Jumbotron>
            
         </div> */}
-        <div clasName="readygo-demo">
+        <div clasName="">
         <br>
         </br>
        <img src={require("../../assets/img/Ready-Go.png")} alt="ReadyGo"/>
-        <Microphone/>
-        </div>
+       <Microphone/>
+       </div>
+       {/* <div className="readygo-mic"> */}
+       {/* <Microphone/> */}
+        {/* </div> */}
         </main>
     )
 }

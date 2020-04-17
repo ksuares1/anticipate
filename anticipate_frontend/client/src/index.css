@@ -19,14 +19,21 @@ code {
   }
 }
 
-.begin{
+/* Carousel */
+.carousel-size{
   width: 75%;
   height: 30%;
   margin: auto;
 }
 
+.carousel-bg{
+  background-color:white;
+  opacity:0.5;
+}
 
-
+.first-car{
+  color:black;
+}
 .message{
   font-size:30px;
   text-align:center;
@@ -83,13 +90,26 @@ float:center;
   margin:auto;
 } */
 
-.readygo{
+/* About Page */
+.readygo-demo{
   background-color: #5ce1e6;
 }
 
-.readygo{
+.about-headline{
   text-align:center;
+  font-weight:bold;
 }
+
+
+/* Mic page- button */
+.readygo-button{
+  text-align: center;
+  /* float:right; */
+  height:10%;
+  width:90%;
+}
+
+/* 
 .readygo-mic{
   float:right;
-}
+} */

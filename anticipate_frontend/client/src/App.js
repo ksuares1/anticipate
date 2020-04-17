@@ -10,7 +10,7 @@ import HomeComponent from "./pages/Home.js";
 import showMic from './components/Nurse/Readygo';
 import SignComponent from './pages/Signup.js';
 import LoginPage from './pages/Login.js';
-// import showDiv from './components/Div/showDiv';
+
 
 function App() {
   return (
@@ -33,13 +33,15 @@ function App() {
           </div>
         </div>
       </Router>
-
+    
 
       <br>
       </br>
+
       <footer className="footer">
         <p> Anticipate &copy; Copyright 2020</p>
       </footer>
+      {/* {location.pathname !== "/about” && <Footer/>} */}
     </div>
   );
 }

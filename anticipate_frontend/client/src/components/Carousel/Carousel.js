@@ -5,17 +5,17 @@ import Button from 'react-bootstrap/Button';
 
 const CarouselComponent = () => {
     return (
-        <Carousel className="begin">
+        <Carousel className="carousel-size">
             <Carousel.Item>
                 <img
                     className="d-block w-100"
                     src={require("../../assets/img/doctor-visit.jpg")}
                     alt="Doctor patient visit"
                 />
-                <Carousel.Caption>
-                    <div className=" ">
-                    <h3>Anticipate</h3>
-                    <p>Meet the app that's changing the way the medical community interacts with patients</p>
+                <Carousel.Caption className="carousel-bg">
+                    <div>
+                    <h3 className="first-car">Anticipate</h3>
+                    <p class="first-car">Meet the app that's changing the way the medical community interacts with patients</p>
                      <>
                     <Button variant="outline-dark">Find Out More</Button>{' '}
                     </> 
@@ -29,9 +29,9 @@ const CarouselComponent = () => {
                     alt="Doctor speaking with patient"
                 />
 
-                <Carousel.Caption>
-                    <h3>What's the last conversation that you had with your nurse or doctor?</h3>
-                    <p>Help us continue to develop more features to create connectivity with patients</p>
+                <Carousel.Caption className="carousel-bg">
+                    <h3 className="first-car">What's the last conversation that you had with your nurse or doctor?</h3>
+                    <p className="first-car">Help us continue to develop more features to create connectivity with patients</p>
                      <>
                     <Button variant="outline-dark">Learn More</Button>{' '}
                     </> 
@@ -44,9 +44,9 @@ const CarouselComponent = () => {
                     alt="Patient alone"
                 />
 
-                <Carousel.Caption>
-                    <h3>Contact Us</h3>
-                    <p>For additional information about Anticipate, reach out to us.</p>
+                <Carousel.Caption className="carousel-bg">
+                    <h3 className="first-car">Contact Us</h3>
+                    <p className="first-car">For additional information about Anticipate, reach out to us.</p>
                     <>
                  <Button variant="outline-light">Learn More</Button>{' '} 
                     </> 
