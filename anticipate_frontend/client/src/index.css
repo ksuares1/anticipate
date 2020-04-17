@@ -60,9 +60,11 @@ code {
 }
 .login-jumbo{
   /* background-image: url("./assets/img/medic-team.jpg"); */
+  text-align:center;
   width:55%;
-  height:35%;
+  height:45%;
   margin:0 auto;
+  background-color: #5ce1e6 ;
 }
 
 /* .form-box{
