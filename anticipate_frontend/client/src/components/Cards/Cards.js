@@ -20,9 +20,9 @@ const CardComponent = () => {
             <Card className="second-card text-center" >
                 <Card.Img variant="top" src={require("../../assets/img/family.jpg")} />
                 <Card.Body>
-                    <Card.Title className="text-center">Family</Card.Title>
+                    <Card.Title className="text-center">Patient</Card.Title>
                     <Card.Text>
-                        <p className="text-center">Keep track of your family members medications.</p>
+                        <p className="text-center"> Nurses can quickly and securely see  the latest medicial updates on their patients.</p>
                     </Card.Text>
                     <Button  variant="outline-dark">Track</Button>
                 </Card.Body>
