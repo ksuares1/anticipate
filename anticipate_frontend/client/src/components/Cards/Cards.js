@@ -8,7 +8,7 @@ const CardComponent = () => {
     return (
         <CardDeck>
             <Card className="first-card text-center">
-                <Card.Img variant="top" src={require("../../assets/img/nurse-patient.jpg")} />
+                <Card.Img  className="nurse-image" variant="top" src={require("../../assets/img/nurse-patient.jpg")} />
                 <Card.Body>
                     <Card.Title className="nurse-card">Nurse</Card.Title>
                     <Card.Text>
@@ -18,7 +18,7 @@ const CardComponent = () => {
                 </Card.Body>
             </Card>
             <Card className="second-card text-center" >
-                <Card.Img variant="top" src={require("../../assets/img/family.jpg")} />
+                <Card.Img className="patient-image" variant="top" src={require("../../assets/img/family.jpg")} />
                 <Card.Body>
                     <Card.Title className="text-center">Patient</Card.Title>
                     <Card.Text>

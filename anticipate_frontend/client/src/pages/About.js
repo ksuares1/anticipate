@@ -12,8 +12,7 @@ const AboutComponent = () => {
                     <p>Anticipate was created on March 28, 2020 to help nurses and medical professionals connect and communicate with their patients.
                     We believe that communication and transparency plays a vital role in patients overall health.</p>
                     <p> Our app was created with the intention of creating smart rooms for hospitals.
-                    Imagine having a family member, who is placed in isolation at a hospital, and you are not able to see or communicate with them.
-                    Anticipate attempts to solve this by providing information such as medications that patients are on to their family members, and
+                    Anticipate 
                          </p>
                 </Container>
             </Jumbotron>

@@ -19,6 +19,8 @@ code {
   }
 }
 
+/* Homepage */
+
 /* Carousel */
 .carousel-size{
   width: 65%;
@@ -48,10 +50,39 @@ code {
   bottom:0;
 }
 
+/* Nurse card */
 .nurse-card{
   text-align:center;
   font-weight:bold;
 }
+
+.nurse-image{
+  width:700px;
+  height:400px;
+  /* text-align:center; */
+  
+}
+
+.first-card{
+  width:85%;
+  height:15%;
+  margin:auto;
+}
+
+/* Patient Card */
+
+.second-card text-center{
+  width:85%;
+  height:15%;
+  margin:auto;
+}
+
+.patient-image{
+  width:700px;
+  height:400px;
+}
+
+
 
 .readygo-info{
   width:55%;
