@@ -87,11 +87,20 @@ code {
 
 
 .readygo-info{
-  width:55%;
+  width:65%;
   height:35%;
   margin:auto;
-  background-color: #5ce1e6 ;
+  background-color: #5ce1e6;
 }
+
+.coming-soon{
+  text-align:center;
+  width:80%;
+  height:30%;
+  margin:auto;
+  background-color: none; 
+}
+
 .login-jumbo{
   /* background-image: url("./assets/img/medic-team.jpg"); */
   text-align:center;
