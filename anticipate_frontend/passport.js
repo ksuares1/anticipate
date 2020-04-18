@@ -1,6 +1,6 @@
 const passport = require('passport')
-const LocalStrategy = require('./localStrategy')
-const User = require('../database/models/user')
+// const LocalStrategy = require('./localStrategy')
+const User = require('./models/user')
 
 // called on login, saves the id to session req.session.passport.user = {id:'..'}
 passport.serializeUser((user, done) => {
@@ -26,6 +26,6 @@ passport.deserializeUser((id, done) => {
 })
 
 //  Use Strategies 
-passport.use(LocalStrategy)
+// passport.use(LocalStrategy)
 
 module.exports = passport
