@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container';
 
 function showMic() {
     return (
-        <main className="readygo">
-            <Jumbotron fluid>
+        <main>
+            <Jumbotron className="readygo-info" fluid>
                 <Container>
                     <h1>Ready Go</h1>
                     <p>Staying connected with patients is important throughout the duration of their hospital stay and out-patient care.

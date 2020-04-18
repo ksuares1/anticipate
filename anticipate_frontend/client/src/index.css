@@ -146,3 +146,8 @@ float:center;
 .readygo-mic{
   float:right;
 } */
+
+/* Readygo information page */
+.readygo-info{
+  text-align:center;
+}
