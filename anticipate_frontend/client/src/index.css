@@ -72,11 +72,12 @@ code {
 /* Patient Card */
 
 /* .second-card{
-  width: 100px;
-  height:500px;
-  
-  margin:auto; 
-} */
+  float: right;
+  /* width: 100px;
+  height:500px; */
+  /* margin:auto; 
+}  */
+
 /* 
 .patient-image{
   width:500px;
@@ -89,6 +90,7 @@ code {
   width:55%;
   height:35%;
   margin:auto;
+  background-color: #5ce1e6 ;
 }
 .login-jumbo{
   /* background-image: url("./assets/img/medic-team.jpg"); */
