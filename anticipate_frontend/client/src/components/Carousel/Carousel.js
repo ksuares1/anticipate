@@ -17,7 +17,7 @@ const CarouselComponent = () => {
                     <h3 className="first-car">Anticipate</h3>
                     <p class="first-car">Meet the app that's changing the way the medical community interacts with patients</p>
                      <>
-                    <Button variant="outline-dark">Find Out More</Button>{' '}
+                    <Button href="/about" variant="outline-dark">Find Out More</Button>{' '}
                     </> 
                     </div>
                 </Carousel.Caption>
@@ -33,7 +33,7 @@ const CarouselComponent = () => {
                     <h3 className="first-car">What's the last conversation that you had with your nurse or doctor?</h3>
                     <p className="first-car">Help us continue to develop more features to create connectivity with patients</p>
                      <>
-                    <Button variant="outline-dark">Learn More</Button>{' '}
+                    <Button href="/readygo" variant="outline-dark">Learn More</Button>
                     </> 
                 </Carousel.Caption>
             </Carousel.Item>
@@ -48,7 +48,7 @@ const CarouselComponent = () => {
                     <h3 className="first-car">Contact Us</h3>
                     <p className="first-car">For additional information about Anticipate, reach out to us.</p>
                     <>
-                 <Button variant="outline-light">Learn More</Button>{' '} 
+                 <Button href="/readygo" variant="outline-light">Learn More</Button>{' '} 
                     </> 
                 </Carousel.Caption>
             </Carousel.Item>
