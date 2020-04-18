@@ -13,12 +13,12 @@ function ViewFamily () {
             <Row>
             <Col xs={6} md={4}>
                 <Image src={require("../../assets/img/Tomato.jpg")} thumbnail />
+                <p>Patient Name</p>
             </Col>
             </Row>
             <Row>
     <div>{}</div>
             </Row>
-           
         </Container>
 
     )
