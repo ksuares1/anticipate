@@ -1,11 +1,13 @@
 import React from "react";
 import axios from "axios";
+import Col from "react-bootstrap/Col";
+import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
 
 class SignupComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            fullname: "",
+            // fullname: "",
             username: "",
             password: "",
         };
@@ -33,7 +35,7 @@ class SignupComponent extends React.Component {
         event.preventDefault()
 
         axios.post("/api/signup", {
-            fullname: this.state.fullname,
+            // fullname: this.state.fullname,
             username: this.state.username,
             password: this.state.password
         })
@@ -55,26 +57,23 @@ class SignupComponent extends React.Component {
     }
     render() {
         return (
+            <div className="center">
+                <MDBRow className="d-flex justify-content-center">
+            <Col md={20} className="signup-box">
+                <h4 className="signup">Sign-Up</h4>
             <form onSubmit={this.handleSubmit}>
-                <label>
-                    Full Name:
-            <input type="text" value={this.state.fullname} onChange={this.handleFullname}
-                    />
-                </label>
-            
-                <label>
-                    Username:
-            <input type="text" value={this.state.username} onChange={this.handleUsername}
-                    />
+                <label> Full Name: </label> 
+            <MDBInput type="text" getValue={this.state.fullname} onChange={this.handleFullname}/>
+                <label>Username:</label>
+            <MDBInput type="text" getValue={this.state.username} onChange={this.handleUsername}/>
 
-                </label>
-
-                <label>
-                    Password:
-              <input type="text" value={this.state.password} onChange={this.handlePassword} />
-                </label>
-                <input type="submit" value="Submit" />
+                <label> Password: </label>
+              <MDBInput type="text" group type="password"  getValue={this.state.password} onChange={this.handlePassword} />
+            <MDBInput type="submit" value="Submit" />
             </form>
+            </Col>
+            </MDBRow>
+            </div>
         );
     }
 }

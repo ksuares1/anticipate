@@ -24,7 +24,7 @@ code {
 /* Carousel */
 .carousel-size{
   width: 65%;
-  height: 40%;
+  height: 35%;
   margin: auto;
 }
 
@@ -56,41 +56,53 @@ code {
   font-weight:bold;
 }
 
-.nurse-image{
-  width:650px;
+/* .nurse-image{
+  width:500px;
   height:350px;
-  /* text-align:center; */
-  
-}
+  /* text-align:center;  
+} */
 
-.first-card{
+/* .first-card{
   width:85%;
   height:15%;
   /* float:right; */
-  /* margin:auto; */
-}
+  /* margin:auto; 
+} */
 
 /* Patient Card */
 
-.second-card{
-  width: 100%;
-  height:500px;
-  
-  /* margin:auto; */
-}
+/* .second-card{
+  float: right;
+  /* width: 100px;
+  height:500px; */
+  /* margin:auto; 
+}  */
 
+/* 
 .patient-image{
-  width:650px;
+  width:500px;
   height:350px;
-}
+} */
 
 
 
 .readygo-info{
-  width:55%;
+  width:65%;
   height:35%;
   margin:auto;
+  background-color: #5ce1e6;
 }
+
+.coming-soon{
+  text-align:center;
+  width:80%;
+  height:30%;
+  margin:auto;
+  background-color: none;
+}
+
+
+
 .login-jumbo{
   /* background-image: url("./assets/img/medic-team.jpg"); */
   text-align:center;
@@ -100,9 +112,9 @@ code {
   background-color: #5ce1e6 ;
 }
 
-/* .form-box{
+.form-box{
 float:center;
-} */
+}
 
 .sign-wrapper{
   text-align:center;
@@ -150,4 +162,26 @@ float:center;
 
 .bg-color {
   background-color: #5ce1e6;
+}
+/* Readygo information page */
+
+.readygo-info{
+  text-align:center;
+}
+
+.login-box{
+  text-align:center;
+}
+
+.signup-box{
+  text-align:center;
+}
+
+.login{
+  font-weight:bold;
+}
+
+.signup{
+  font-weight:bold;
+  text-align:center;
 }

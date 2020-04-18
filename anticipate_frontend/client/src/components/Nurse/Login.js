@@ -1,8 +1,7 @@
 import React, {Fragment} from "react";
 import axios from "axios";
-// import { MDBInput } from 'mdbreact';
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
-
+import Col from "react-bootstrap/Col";
 
 class LoginComponent extends React.Component {
     constructor(props) {
@@ -15,13 +14,13 @@ class LoginComponent extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleUsername=(event)=>{
-        this.setState({username:event.target.value})
+    handleUsername = (event) => {
+        this.setState({ username: event.target.value })
 
     }
-    
-    handlePassword=(event)=>{
-        this.setState({password:event.target.value})
+
+    handlePassword = (event) => {
+        this.setState({ password: event.target.value })
 
     }
 
@@ -53,17 +52,19 @@ class LoginComponent extends React.Component {
         return (
             <div className="center">
             <MDBRow className="d-flex justify-content-center">
-            <MDBCol md="6">
+            <MDBCol md={20}>
             <form className="form-box" onSubmit={this.handleSubmit}>
             <p className="h5 text-center mb-4">Sign in</p>
             <div className="grey-text">
-        <MDBInput label="Type your username"  getValue={this.state.username} onChange={this.handleUsername} icon="envelope" group type="text" validate error="wrong"
+            <label>Username:</label>
+        <MDBInput getValue={this.state.username} onChange={this.handleUsername} icon="envelope" group type="text" validate error="wrong"
           success="right" />
-        <MDBInput label="Type your password" getValue={this.state.password} onChange={this.handlePassword} icon="lock" group type="password" validate />
+          <label> Password: </label>
+        <MDBInput getValue={this.state.password} onChange={this.handlePassword} icon="lock" group type="password" validate />
          </div>
 
                 <div className="text-center">
-                <MDBInput href="/patients" type="submit" value="Submit" />
+                <MDBInput href="/patients" type="submit" value="Log In" />
                 </div>
                 
             </form>  
@@ -71,6 +72,18 @@ class LoginComponent extends React.Component {
          </MDBRow>
          </div>
 
+
+            // <Col md={20} className="login-box">
+            //     <h4 className="login">Login</h4>
+            //     <form className="form-box" onSubmit={this.handleSubmit}>
+            //         <label>Username:</label>
+            //         <input type="text" value={this.state.username} onChange={this.handleUsername} />
+
+            //         <label> Password:</label>
+            //         <input type="text" value={this.state.password} onChange={this.handlePassword} />
+            //         <input type="submit" value="Submit" />
+            //     </form>
+            // </Col>
         );
     }
 }

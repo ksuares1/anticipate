@@ -43,12 +43,11 @@ function App() {
 
       <br>
       </br>
-      
-        {/* <footer className="footer">
+{/*       
+        <footer className="footer">
           <p> Anticipate &copy; Copyright 2020</p>
         </footer>
-        */}
-        {/* {location.pathname !== "/about” && <Footer/>} */}
+      */}
     </div>
   );
 }
