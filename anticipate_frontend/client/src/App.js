@@ -13,6 +13,7 @@ import LoginPage from './pages/Login.js';
 import Detail from './pages/Patient-Vitals.js';
 // import showDiv from './components/Div/showDiv';
 
+
 function App() {
   return (
     <div>
@@ -41,9 +42,12 @@ function App() {
 
       <br>
       </br>
-      <footer className="footer">
-        <p> Anticipate &copy; Copyright 2020</p>
-      </footer>
+      
+        {/* <footer className="footer">
+          <p> Anticipate &copy; Copyright 2020</p>
+        </footer>
+        */}
+        {/* {location.pathname !== "/about” && <Footer/>} */}
     </div>
   );
 }

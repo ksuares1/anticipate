@@ -5,10 +5,10 @@ import Container from 'react-bootstrap/Container';
 
 function showNurse() {
     return (
-        <div>
+        <div className="login-bg">
             <Jumbotron fluid className="login-jumbo">
                 <Container>
-                    <h1>Nurses, doctors, and medical professionals are the heroes of the world!</h1>
+                    <h1>Nurses are the heroes of the world!</h1>
                     <p> Please login to your Anticipate account to gain access our database.</p>
                 </Container>
             </Jumbotron>

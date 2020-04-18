@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from '../components/Carousel/Carousel.js';
 import CardComponent from '../components/Cards/Cards.js';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 
 
@@ -14,11 +14,11 @@ const HomeComponent = () => {
             <CardComponent />
             <br>
             </br>
-            <div>
+            {/* <div>
                 <h1 className="message">Anticipate assists nurses and medical professionals with their interactions with patients.</h1>
                 <Button variant="outline-dark">Find Out More</Button>{' '}
 
-            </div>
+            </div> */}
         </main>
     )
 }

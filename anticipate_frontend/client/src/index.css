@@ -19,28 +19,30 @@ code {
   }
 }
 
-.begin{
-  width: 75%;
-  height: 30%;
+/* Homepage */
+
+/* Carousel */
+.carousel-size{
+  width: 65%;
+  height: 40%;
   margin: auto;
 }
 
-/* .login-button{
-  /* justify-content: center; */
-/* } */
- 
-/* .first-card{
-  width:30%;
-  height:70%;
-  margin:none;
-}  */
+.carousel-bg{
+  background-color:white;
+  opacity:0.5;
+}
 
+.first-car{
+  color:darkblue;
+}
 .message{
   font-size:30px;
   text-align:center;
 }
 
 .footer{
+  position:fixed;
   background-color:lightblue;
   text-align:center;
   width:100%;
@@ -48,16 +50,54 @@ code {
   bottom:0;
 }
 
+/* Nurse card */
 .nurse-card{
   text-align:center;
   font-weight:bold;
 }
-.login-jumbo{
-  /* background-image: url("./assets/img/medic-team.jpg"); */
+
+.nurse-image{
+  width:650px;
+  height:350px;
+  /* text-align:center; */
+  
+}
+
+.first-card{
+  width:85%;
+  height:15%;
+  /* float:right; */
+  /* margin:auto; */
+}
+
+/* Patient Card */
+
+.second-card{
+  width: 100%;
+  height:500px;
+  
+  /* margin:auto; */
+}
+
+.patient-image{
+  width:650px;
+  height:350px;
+}
+
+
+
+.readygo-info{
   width:55%;
   height:35%;
   margin:auto;
+}
+.login-jumbo{
+  /* background-image: url("./assets/img/medic-team.jpg"); */
   text-align:center;
+  width:55%;
+  height:45%;
+  margin:0 auto;
+  background-color: #5ce1e6 ;
 }
 
 /* .form-box{
@@ -69,5 +109,40 @@ float:center;
   width:55%;
   height:35%;
   margin:auto;
-
+  background-color: #5ce1e6 ;
 }
+.index-div{
+  display: flex;
+  justify-content:center;
+  /* text-align:center; */
+}
+
+/* .mic-page{
+  width:55%;
+  height:35%;
+  margin:auto;
+} */
+
+/* About Page */
+.readygo-demo{
+  background-color: #5ce1e6;
+}
+
+.about-headline{
+  text-align:center;
+  font-weight:bold;
+}
+
+
+/* Mic page- button */
+.readygo-button{
+  text-align: center;
+  /* float:right; */
+  height:10%;
+  width:90%;
+}
+
+/* 
+.readygo-mic{
+  float:right;
+} */

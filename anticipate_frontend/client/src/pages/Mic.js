@@ -39,7 +39,7 @@ recorder
 })
 )
 return (
-  <div>
+  <div className="readygo-button">
 
     <button onClick={(e)=>startRec()}>
       Start
