@@ -1,3 +1,7 @@
+// module.exports = {
+//    Patient: require("./patients")
+// };
 module.exports = {
-    User: require("./user")
+    User: require("./user"),
+    Patient: require("./patients")
 };
