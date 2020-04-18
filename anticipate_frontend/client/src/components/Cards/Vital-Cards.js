@@ -1,12 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-// import { List, ListItem } from "/List/ptlist.js";
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
-import Microphone from "../../pages/Mic.js";
-import Image from 'react-bootstrap/Image';
+
 
 
  

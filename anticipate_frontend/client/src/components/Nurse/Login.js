@@ -1,5 +1,8 @@
-import React from "react";
+import React, {Fragment} from "react";
 import axios from "axios";
+// import { MDBInput } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
+
 
 class LoginComponent extends React.Component {
     constructor(props) {
@@ -35,7 +38,7 @@ class LoginComponent extends React.Component {
                 if (!response.data.errmsg) {
                     console.log('login successful')
                     this.setState({ //redirect to login page
-                        redirectTo: '/vitals'
+                        redirectTo: '/patients'
                     })
                 } else {
                     console.log('username already taken')
@@ -48,20 +51,26 @@ class LoginComponent extends React.Component {
     }
     render() {
         return (
+            <div className="center">
+            <MDBRow className="d-flex justify-content-center">
+            <MDBCol md="6">
             <form className="form-box" onSubmit={this.handleSubmit}>
-                <label>
-                    Username:
-            <input type="text" value={this.state.username} onChange={this.handleUsername} 
-            />
+            <p className="h5 text-center mb-4">Sign in</p>
+            <div className="grey-text">
+        <MDBInput label="Type your username"  getValue={this.state.username} onChange={this.handleUsername} icon="envelope" group type="text" validate error="wrong"
+          success="right" />
+        <MDBInput label="Type your password" getValue={this.state.password} onChange={this.handlePassword} icon="lock" group type="password" validate />
+         </div>
 
-                </label>
+                <div className="text-center">
+                <MDBInput type="submit" value="Submit" />
+                </div>
+                
+            </form>  
+         </MDBCol>
+         </MDBRow>
+         </div>
 
-                <label>
-                    Password:
-              <input type="text" value={this.state.password} onChange={this.handlePassword} />
-                </label>
-                <input type="submit" value="Submit" />
-            </form>
         );
     }
 }
