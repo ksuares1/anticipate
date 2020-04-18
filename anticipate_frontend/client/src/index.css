@@ -168,10 +168,15 @@ float:center;
   text-align:center;
 }
 
-.singup-box{
+.signup-box{
   text-align:center;
 }
 
 .login{
   font-weight:bold;
+}
+
+.signup{
+  font-weight:bold;
+  text-align:center;
 }
