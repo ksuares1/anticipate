@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Col from "react-bootstrap/Col";
 
 class LoginComponent extends React.Component {
     constructor(props) {
@@ -12,13 +13,13 @@ class LoginComponent extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleUsername=(event)=>{
-        this.setState({username:event.target.value})
+    handleUsername = (event) => {
+        this.setState({ username: event.target.value })
 
     }
-    
-    handlePassword=(event)=>{
-        this.setState({password:event.target.value})
+
+    handlePassword = (event) => {
+        this.setState({ password: event.target.value })
 
     }
 
@@ -48,20 +49,18 @@ class LoginComponent extends React.Component {
     }
     render() {
         return (
-            <form className="form-box" onSubmit={this.handleSubmit}>
-                <label>
-                    Username:
-            <input type="text" value={this.state.username} onChange={this.handleUsername} 
-            />
 
-                </label>
+            <Col md={20} className="login-box">
+                <h4 className="login">Login</h4>
+                <form className="form-box" onSubmit={this.handleSubmit}>
+                    <label>Username:</label>
+                    <input type="text" value={this.state.username} onChange={this.handleUsername} />
 
-                <label>
-                    Password:
-              <input type="text" value={this.state.password} onChange={this.handlePassword} />
-                </label>
-                <input type="submit" value="Submit" />
-            </form>
+                    <label> Password:</label>
+                    <input type="text" value={this.state.password} onChange={this.handlePassword} />
+                    <input type="submit" value="Submit" />
+                </form>
+            </Col>
         );
     }
 }

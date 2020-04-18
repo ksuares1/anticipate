@@ -1,11 +1,11 @@
 import React from "react";
 import axios from "axios";
-
+import Col from "react-bootstrap/Col";
 class SignupComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            fullname: "",
+            // fullname: "",
             username: "",
             password: "",
         };
@@ -13,9 +13,9 @@ class SignupComponent extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleFullname = (event) =>{
-        this.setState({ fullname: event.target.value })
-    }
+    // handleFullname = (event) =>{
+    //     this.setState({ fullname: event.target.value })
+    // }
 
     handleUsername = (event) => {
         this.setState({ username: event.target.value })
@@ -33,7 +33,7 @@ class SignupComponent extends React.Component {
         event.preventDefault()
 
         axios.post("/api/signup", {
-            fullname: this.state.fullname,
+            // fullname: this.state.fullname,
             username: this.state.username,
             password: this.state.password
         })
@@ -55,26 +55,19 @@ class SignupComponent extends React.Component {
     }
     render() {
         return (
+            <Col md={20} className="signup-box">
+                <h4 className="signup">Sign-Up</h4>
             <form onSubmit={this.handleSubmit}>
-                <label>
-                    Full Name:
-            <input type="text" value={this.state.fullname} onChange={this.handleFullname}
-                    />
-                </label>
-            
-                <label>
-                    Username:
-            <input type="text" value={this.state.username} onChange={this.handleUsername}
-                    />
+                {/* <label> Full Name: </label> */}
+            {/* <input type="text" value={this.state.fullname} onChange={this.handleFullname}/> */}
+                <label>Username:</label>
+            <input type="text" value={this.state.username} onChange={this.handleUsername}/>
 
-                </label>
-
-                <label>
-                    Password:
+                <label> Password:     </label>
               <input type="text" value={this.state.password} onChange={this.handlePassword} />
-                </label>
-                <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" />
             </form>
+            </Col>
         );
     }
 }
