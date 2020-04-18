@@ -55,6 +55,8 @@ class SignupComponent extends React.Component {
     }
     render() {
         return (
+            <div className="signup-box">
+                <h4 className="text-align:center">Sign-Up</h4>
             <form onSubmit={this.handleSubmit}>
                 <label>
                     Full Name:
@@ -75,6 +77,7 @@ class SignupComponent extends React.Component {
                 </label>
                 <input type="submit" value="Submit" />
             </form>
+            </div>
         );
     }
 }
