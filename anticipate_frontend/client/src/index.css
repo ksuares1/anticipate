@@ -19,6 +19,8 @@ code {
   }
 }
 
+/* Homepage */
+
 /* Carousel */
 .carousel-size{
   width: 65%;
@@ -48,10 +50,40 @@ code {
   bottom:0;
 }
 
+/* Nurse card */
 .nurse-card{
   text-align:center;
   font-weight:bold;
 }
+
+/* .nurse-image{
+  width:500px;
+  height:350px;
+  /* text-align:center;  
+} */
+
+/* .first-card{
+  width:85%;
+  height:15%;
+  /* float:right; */
+  /* margin:auto; 
+} */
+
+/* Patient Card */
+
+/* .second-card{
+  width: 100px;
+  height:500px;
+  
+  margin:auto; 
+} */
+/* 
+.patient-image{
+  width:500px;
+  height:350px;
+} */
+
+
 
 .readygo-info{
   width:55%;
@@ -76,7 +108,7 @@ float:center;
   width:55%;
   height:35%;
   margin:auto;
-
+  background-color: #5ce1e6 ;
 }
 .index-div{
   display: flex;
@@ -113,3 +145,8 @@ float:center;
 .readygo-mic{
   float:right;
 } */
+
+/* Readygo information page */
+.readygo-info{
+  text-align:center;
+}

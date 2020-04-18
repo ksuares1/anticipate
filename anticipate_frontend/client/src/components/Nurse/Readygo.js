@@ -1,13 +1,12 @@
 import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
-// import Microphone from "../../pages/Mic.js";
+//  import Microphone from "../../pages/Mic.js";
 
 function showMic() {
     return (
-        <main className="readygo-wrapper">
-
-            <Jumbotron fluid>
+        <main>
+            <Jumbotron className="readygo-info" fluid>
                 <Container>
                     <h1>Ready Go</h1>
                     <p>Staying connected with patients is important throughout the duration of their hospital stay and out-patient care.

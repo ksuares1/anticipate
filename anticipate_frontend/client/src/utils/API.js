@@ -1,19 +1,20 @@
-import React from "react";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import axios from "axios";
 
-  import AboutComponent from './pages/About.js.js';
+export default {
 
-  export default () => (
-      <div>
-          <Router>
-          <Switch>
-              <Route exact path="/about" component={AboutComponent} />
-          </Switch>
-          </Router>
-      </div>
-  )
+  getPatients: function() {
+    return axios.get("/api/patients");
+  },
+  
+  getPatient: function(id) {
+    return axios.get("/api/patients/" + id);
+  },
+  
+  deletePatient: function(id) {
+    return axios.delete("/api/patients/" + id);
+  },
+  
+  savePatient: function(patientData) {
+    return axios.post("/api/patients", patientData);
+  }
+};
