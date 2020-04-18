@@ -14,14 +14,13 @@ function showMic() {
                      Anticipate's voice recording system called Ready Go helps nurses to quickly send text messages to patients, so they can care for mutiple patients at a time. </p>
                 </Container>
             </Jumbotron>
+
             <br>
             </br>
+
             <Jumbotron className="coming-soon">
                 <h1>Coming Soon</h1>
-                <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
-  </p>
+                <p>At Anticipate we understand how important the ability to communicate with family members and medical staff is to patients. As our application continues to grow, we will add new features such as the ability for family members to send pictures and text messages to patients.</p>
                 <p>
                     <Button variant="primary">Learn more</Button>
                 </p>
