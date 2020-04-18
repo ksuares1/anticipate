@@ -13,7 +13,7 @@ const patientSchema = new Schema({
     image: {type: String},
     contactName: {type: String},
     contactType: {type: String},
-    contactNumber: {type: String},
+    contactNumber: {type: Number},
 
 })
 
