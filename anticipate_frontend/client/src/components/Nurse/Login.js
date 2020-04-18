@@ -51,7 +51,7 @@ class LoginComponent extends React.Component {
         return (
 
             <Col md={20} className="login-box">
-                <h4>Login</h4>
+                <h4 className="login">Login</h4>
                 <form className="form-box" onSubmit={this.handleSubmit}>
                     <label>Username:</label>
                     <input type="text" value={this.state.username} onChange={this.handleUsername} />
