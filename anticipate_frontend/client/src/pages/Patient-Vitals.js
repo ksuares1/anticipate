@@ -62,7 +62,7 @@ componentDidMount() {
                 <MDBRow>
                 <MDBCol md="12" className="mb-4">
                 <MDBCard color="indigo" text="white" className="text-center">
-        <MDBCardBody>
+        <MDBCardBody className="bg-color">
                 <Microphone />
         </MDBCardBody>
       </MDBCard>

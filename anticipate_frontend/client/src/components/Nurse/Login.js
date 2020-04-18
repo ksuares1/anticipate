@@ -63,7 +63,7 @@ class LoginComponent extends React.Component {
          </div>
 
                 <div className="text-center">
-                <MDBInput type="submit" value="Submit" />
+                <MDBInput href="/patients" type="submit" value="Submit" />
                 </div>
                 
             </form>  
