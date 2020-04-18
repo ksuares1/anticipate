@@ -1,6 +1,9 @@
 import React from "react";
 import axios from "axios";
 import Col from "react-bootstrap/Col";
+import { MDBContainer, MDBRow, MDBInput, MDBBtn } from 'mdbreact';
+
+
 class SignupComponent extends React.Component {
     constructor(props) {
         super(props);
