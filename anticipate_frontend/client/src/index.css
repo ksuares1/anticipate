@@ -57,28 +57,30 @@ code {
 }
 
 .nurse-image{
-  width:500px;
+  width:650px;
   height:350px;
   /* text-align:center; */
   
 }
 
 .first-card{
-  width:5%;
-  height:95%;
-  margin:auto;
+  width:85%;
+  height:15%;
+  /* float:right; */
+  /* margin:auto; */
 }
 
 /* Patient Card */
 
 .second-card{
-  width:85%;
-  height:15%;
-  margin:auto;
+  width: 100%;
+  height:500px;
+  
+  /* margin:auto; */
 }
 
 .patient-image{
-  width:500px;
+  width:650px;
   height:350px;
 }
 
