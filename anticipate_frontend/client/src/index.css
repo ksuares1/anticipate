@@ -152,6 +152,7 @@ float:center;
   /* float:right; */
   height:10%;
   width:90%;
+  ;
 }
 
 /* 
@@ -159,7 +160,11 @@ float:center;
   float:right;
 } */
 
+.bg-color {
+  background-color: #5ce1e6;
+}
 /* Readygo information page */
+
 .readygo-info{
   text-align:center;
 }

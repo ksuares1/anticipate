@@ -20,7 +20,7 @@ function NavBar() {
             <NavDropdown title="Nurse" id="basic-nav-dropdown">
               <NavDropdown.Item href="/login">Login</NavDropdown.Item>
               <NavDropdown.Item href="/signup">Sign-up</NavDropdown.Item>
-              <NavDropdown.Item href="/patient">Patient</NavDropdown.Item>
+              <NavDropdown.Item href="/patients">Patient</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/readygo">ReadyGo</NavDropdown.Item>
             </NavDropdown>

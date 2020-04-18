@@ -34,6 +34,7 @@ function App() {
             <Route exact path="/signup" component={SignComponent} />
             <Route exact path="/readygo" component={showMic} />
             <Route exact path="/patients/:id" component={Detail} />
+          
 
           </div>
         </div>
