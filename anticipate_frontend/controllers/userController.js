@@ -18,7 +18,7 @@ passport.authenticate('local'),
                 .find(req.body.username)
                 .find(req.body.password)
                 .then(dbModel => {
-                    if (!dbModel) {
+                    if (!dbModel.checkUsername(username)) {
                         return done(null, false, { message: 'Incorrect username' })
                     }
                     if (!dbModel.checkPassword(password)) {
