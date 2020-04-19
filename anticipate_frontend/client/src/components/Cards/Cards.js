@@ -30,7 +30,7 @@ const CardComponent = () => {
                         <Card.Text>
                             <p className="text-center"> Nurses can quickly and securely see  the latest medicial updates on their patients.</p>
                         </Card.Text>
-                        <Button  href="/patients" variant="outline-dark">Track</Button>
+                        <Button  href="/patient" variant="outline-dark">Track</Button>
                     </Card.Body>
                 </Card>
             </Col>

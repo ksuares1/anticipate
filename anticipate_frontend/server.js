@@ -9,6 +9,7 @@ const passport = require('./passport');
 const PORT = process.env.PORT || 3001;
 
 const server = http.createServer(app);
+// const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -50,3 +51,19 @@ app.listen(PORT, function () {
 });
 
 
+//Twilio Server 
+
+app.post('/sms', (req, res) => {
+  const twiml = new MessagingResponse();
+
+  twiml.message('The Robots are coming! Head for the hills!');
+
+  res.writeHead(200, {'Content-Type': 'text/xml'});
+  res.end(twiml.toString());
+});
+
+http.createServer(app).listen(1337, () => {
+  console.log('Express server listening on port 1337');
+});
+
+//End of Twilio server 

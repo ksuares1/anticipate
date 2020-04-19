@@ -4,14 +4,13 @@ import { List, ListItem } from "../components/List/ptlist.js";
 import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
+// import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
 
 
 class Patients extends Component {
     state = {
-        patients: [],
-        
+        patients: {}
 
     };
 
@@ -32,49 +31,43 @@ class Patients extends Component {
         )
         .catch(err => console.log(err));
     };
-   
-   
+
     render() {
         return (
             <Container>
                 <Row>
                     <Col size="md-6 sm-12">
-                        <h1>Patients in Unit</h1>
+                        <h1>Patients in Units</h1>
                       
                             <List>
         
                             {this.state.patients.length ? this.state.patients.map(patient => (
                                     <ListItem key={patient._id}>
                                         <Link to={"/patients/" + patient._id}>
-                                        <MDBTable hover>
-      <MDBTableHead>
-        <tr>
-          <th>Name</th>
-          <th>MRN</th>
-          <th>Location</th>
-        </tr>
-      </MDBTableHead>
-      <MDBTableBody>
-        <tr>
-          <td>{patient.name}</td>
-          <td>{patient.mrn}</td>
-          <td>{patient.location}</td>
-        </tr>
-      </MDBTableBody>
-    </MDBTable>
+                                            <table>
+                                             <tr>
+                                                 <th>Name</th>
+                                                 <th>MRN</th>
+                                                 <th>Location</th>
+                                            </tr>   
+                                            <tr>
+                                                <td>{patient.name}</td>
+                                                <td>{patient.mrn}</td>
+                                                <td>{patient.location}</td>
+                                            </tr>
+                                            </table>
                                             
                                         </Link>
                                     </ListItem>
                                     )):
                                     <div/>
-                            } 
+                                    } 
                             </List>
                                 
                             {/* <h3>No Patients to Display</h3>
                         )} */}
                     </Col>
                 </Row>
-             
             </Container>
         )
     }
