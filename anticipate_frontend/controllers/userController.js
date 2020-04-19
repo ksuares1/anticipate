@@ -12,8 +12,10 @@ passport.authenticate('local'),
                 )
                 .catch(err => res.status(422).json(err));
         },
-        find: function (req, res) {
+        find: function (req, res, next) {
+            passport.authenticate('local'),
             db.User
+                .find(req.body.username)
                 .find(req.body.password)
                 .then(dbModel => {
                     if (!dbModel) {
@@ -30,6 +32,8 @@ passport.authenticate('local'),
                         res.send("Login error!");
                     }
                 })
-                .catch(err => res.status(422).json(err));
+                .catch(err => {
+                    console.log("error", err);
+                    res.status(422).json(err)});
         }
     }
