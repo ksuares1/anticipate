@@ -3,6 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Microphone from '../pages/Mic.js';
 
+
 const AboutComponent = () => {
     return (
         <main className="readygo-demo">
