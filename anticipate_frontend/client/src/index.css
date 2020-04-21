@@ -164,6 +164,15 @@ float:center;
   text-align:center;
 }
 
+.team-container{
+  text-align:center;
+
+}
+
+.picture-one{
+  float: left;
+}
+
 .login-box{
   text-align:center;
 }
@@ -180,3 +189,4 @@ float:center;
   font-weight:bold;
   text-align:center;
 }
+

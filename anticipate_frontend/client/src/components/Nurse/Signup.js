@@ -35,8 +35,9 @@ class SignupComponent extends React.Component {
                             {/* <label> Username: </label> */}
                             {/* <input type="text" value={this.state.username} onChange={this.handleUsername} /> */}
                             {/* <label> Password: </label> */}
-
-                            <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
+                          
+                           <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
+                            
                             <MDBInput type="submit" value="Submit" />
                             {/* <input type="submit" value="Submit" /> */}
                         </form>
@@ -46,8 +47,6 @@ class SignupComponent extends React.Component {
         );
     }
 }
-
-
 export default SignupComponent;
 
 
