@@ -17,9 +17,9 @@ These are some libraries that you will need to install for this application.
 > npm i express
 
 ## Built With 
-**React.js
-**Reactstrap
-**MDBReact
-**Node.js
-**Mongodb
-**Node.js
+**React.js**
+**Reactstrap**
+**MDBReact**
+**Node.js**
+**Mongodb**
+**Node.js**
