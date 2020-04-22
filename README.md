@@ -20,13 +20,13 @@ These are some libraries that you will need to install for this application.
 
 ## Built With 
 
-**React.js** https://github.com/facebook/create-react-app
+**React.js** - https://github.com/facebook/create-react-app
 
-**Reactstrap** https://react-bootstrap.netlify.com/components/buttons/
+**Reactstrap** - https://react-bootstrap.netlify.com/components/buttons/
 
-**MDBReact** https://mdbootstrap.com/docs/react/
+**MDBReact** -  https://mdbootstrap.com/docs/react/
 
-**Node.js**
+**Node.js** -
 
-**Mongodb**
+**Mongodb** -
 
