@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Col from "react-bootstrap/Col";
-import { MDBContainer, MDBRow, MDBInput, MDBBtn } from 'mdbreact';
+import {MDBRow, MDBInput, } from 'mdbreact';
 
 class SignupComponent extends React.Component {
     constructor(props) {
@@ -9,8 +9,10 @@ class SignupComponent extends React.Component {
         this.state = {
             username: "",
             password: "",
+         
         }
         // event.preventDefault()
+        
 
         axios.post("/api/signup", {
             username: this.state.username,
@@ -34,6 +36,23 @@ class SignupComponent extends React.Component {
                          <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
                          <MDBInput type="submit" value="Submit" />
                             <input type="submit" value="Submit" />
+
+                            <br>
+                            </br>
+                            {/* <label> Full Name: </label>
+                                    <MDBInput type="text" getValue={this.state.fullname} onChange={this.handleFullname} />
+                                    <input type="text" value={this.state.fullname} onChange={this.handleFullname}	 */}
+
+                            <MDBInput type="text" getValue={this.state.username} onChange={this.handleUsername} />
+
+                            {/* <label> Username: </label> */}
+                            {/* <input type="text" value={this.state.username} onChange={this.handleUsername} /> */}
+                            {/* <label> Password: </label> */}
+                          
+                           <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
+                            
+                            <MDBInput type="submit" value="Submit" />
+                            {/* <input type="submit" value="Submit" /> */}
                         </form>
                     </Col >
                 </MDBRow >
@@ -41,8 +60,6 @@ class SignupComponent extends React.Component {
         );
     }
 }
-
-
 export default SignupComponent;
 
 

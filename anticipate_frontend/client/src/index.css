@@ -164,6 +164,15 @@ float:center;
   text-align:center;
 }
 
+.team-container{
+  text-align:center;
+
+}
+
+.picture-one{
+  float: left;
+}
+
 .login-box{
   text-align:center;
 }
@@ -184,3 +193,4 @@ float:center;
 .bg-color {
   background-color: #5ce1e6;
 }
+
