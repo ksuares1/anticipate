@@ -19,7 +19,7 @@ const CardComponent = () => {
           <MDBCardText>
           Seamlessly check-in with your patients.
           </MDBCardText>
-          <MDBBtn color="primary" size="md">
+          <MDBBtn href="/login" color="primary" size="md">
             Login
           </MDBBtn>
         </MDBCardBody>
@@ -34,7 +34,7 @@ const CardComponent = () => {
             Connecting to our love one's when is an important part of their health journey. 
             Login to your account to view the latest medications being administered to your family member. 
           </MDBCardText>
-          <MDBBtn color="primary" size="md">
+          <MDBBtn href="/family" color="primary" size="md">
             Track
           </MDBBtn>
         </MDBCardBody>
@@ -44,12 +44,11 @@ const CardComponent = () => {
         <MDBCardImage src={require("../../assets/img/nurse-patient.jpg")} alt= "Nurse with patient" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+          <MDBCardTitle tag="h5">Patient</MDBCardTitle>
           <MDBCardText>
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
+          Nurses can quickly and securely see  the latest medicial updates on their patients.
           </MDBCardText>
-          <MDBBtn color="primary" size="md">
+          <MDBBtn  href="/patient" color="primary" size="md">
             read more
           </MDBBtn>
         </MDBCardBody>
