@@ -19,7 +19,7 @@ mongoose.connect(
          location: "HB 7 FL West Room 12 Bed B",
          contactName: "Ana Avocado",
          contactType: "Mom",
-         contactNumber: 2128675309,
+         contactNumber: "(212) 867-5309",
          image: "../assets/img/Avocado.jpg"
       },
       {
@@ -33,7 +33,7 @@ mongoose.connect(
         location: "HB 10 FL East Room 10 Bed A",
         contactName: "Maria Tomato",
         contactType: "Mom",
-        contactNumber: 2128675309,
+        contactNumber: "(212) 867-5309",
         image: "../assets/img/Tomato.jpg"
     }
   ];

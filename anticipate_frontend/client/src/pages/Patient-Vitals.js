@@ -7,6 +7,8 @@ import Col from 'react-bootstrap/Col';
 // import Microphone from "./Mic";
 import Microphone from "./Mic.js";
 import Image from 'react-bootstrap/Image';
+import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import { MDBCard, MDBCardBody, MDBCol, MDBRow, MDBBtn} from "mdbreact";
 
 // import { List } from "../components/List/ptlist";
 
@@ -22,42 +24,70 @@ componentDidMount() {
       .catch(err => console.log(err));
   }
 
-  render() {
-        return (
-            <Container>
-                <Row>
-                    <Col size="md-12">
-                        <h1>
-                            {this.state.patient.name}
-                        </h1>
-                        
-                       <Image src={require("./../assets/img/Tomato.jpg")} thumbnail />
-                       
-                    </Col>
-                </Row>
-                <Row>
-                    <Col size="md-12">
-                     <List>
-                     <ul>
-                       <li>Location: {this.state.patient.location}</li>
-                       <li>MRN: {this.state.patient.mrn}</li>
-                       <li>Medications: {this.state.patient.medications}</li>
-                       <li>Heart Rate: {this.state.patient.heartRate}</li>
-                       <li>Oxygen Levels: {this.state.patient.oxygenLevel}</li>
-                       <li>Temperature: {this.state.patient.temperature}</li>
-                       <li>Blood Pressure: {this.state.patient.bloodPressure}</li>
-                       
 
-                    </ul>
-                     </List>
-                    </Col>
-                </Row>
-                <Row>
-                    <Microphone />
-                </Row>
-            </Container>
-        )
-  }
+  render() {
+    return (
+        <Container>
+            <Row>
+                <Col size="md-12">
+                    <h1>
+                        {this.state.patient.name}
+                    </h1>
+                 <h4>MRN: {this.state.patient.mrn}</h4>
+               </Col>
+            </Row>
+
+            <MDBTable>
+  <MDBTableHead>
+    <tr>
+      <th>Medications</th>
+      <th>Heart Rate</th>
+      <th>Oxygen Level</th>
+      <th>Temperature</th>
+      <th>Blood Pressure</th>
+    </tr>
+  </MDBTableHead>
+  <MDBTableBody>
+    <tr>
+      <td>{this.state.patient.medications}</td>
+      <td>{this.state.patient.heartRate}</td>
+      <td>{this.state.patient.oxygenLevel}</td>
+      <td>{this.state.patient.temperature}</td>
+      <td>{this.state.patient.bloodPressure}</td>
+    </tr>
+  </MDBTableBody>
+</MDBTable>
+            <MDBRow>
+            <MDBCol md="12" className="mb-4">
+            <MDBCard color="indigo" text="white" className="text-center">
+    <MDBCardBody className="bg-color">
+            <Microphone />
+    </MDBCardBody>
+  </MDBCard>
+            </MDBCol>
+            </MDBRow>
+            <Col size="md-12">
+            <Image src={require("./../assets/img/Tomato.jpg")} thumbnail />
+            </Col>
+            
+            <MDBCol size="md-12">
+            <MDBCard color="indigo">
+                <MDBCardBody className="text-center">Family Contact
+                      <ul>
+                         <li>Contact Name: {this.state.patient.contactName}</li>
+                         <li>Relationship: {this.state.patient.contactType}</li>
+                         <li>Phone Number: {this.state.patient.contactNumber}</li>
+                      </ul>
+                
+                </MDBCardBody>
+          </MDBCard>
+          
+            </MDBCol>
+            
+        </Container>
+        
+    )
+}
 
 }
 export default Detail;
