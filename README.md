@@ -6,8 +6,6 @@ Anticipate is a voice recording app that connects nurses and family members with
 
 After cloning this repository to your terminal, do an npm install to ensure that all dependencies will be downloaded from your package.json. Create a server.js file to run node.js on the backend of your application.
 
-<br>
-</br>
 ## Prerequisites
 
 These are some libraries that you will need to install for this application.
