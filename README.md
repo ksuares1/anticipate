@@ -30,3 +30,6 @@ These are some libraries that you will need to install for this application.
 
 **Mongodb** - https://github.com/mongodb/mongo
 
+## Collaborators
+
+-Miriam Duverge : https://github.com/mia-duv
