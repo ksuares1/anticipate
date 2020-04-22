@@ -9,8 +9,10 @@ class SignupComponent extends React.Component {
         this.state = {
             username: "",
             password: "",
+         
         }
         // event.preventDefault()
+        
 
         axios.post("/api/signup", {
             username: this.state.username,
