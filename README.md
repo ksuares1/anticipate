@@ -9,6 +9,8 @@ After cloning this repository to your terminal, do an npm install to ensure that
 
 Prerequisites
 These are some applications that you will need to install for this application.
+<br>
+</br>
 npm i
 npm init -y
 npm i express
