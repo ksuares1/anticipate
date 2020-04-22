@@ -34,9 +34,9 @@ function showMic() {
             </MDBCol>
             </MDBRow>
            
-                    <MDBRow>
+                    <MDBRow >
                   <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
-                    <img className="d-circle w-5" src={require("../../assets/img/Mia.png")} alt="Mia" />
+                    <img className="mia-info d-circle w-5" src={require("../../assets/img/Mia.png")} alt="Mia" />
                     <h5> Miriam Duverge</h5>
                     <p>Full Stack Engineer</p>
                     <p></p>
