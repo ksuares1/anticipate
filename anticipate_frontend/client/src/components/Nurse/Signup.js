@@ -26,8 +26,8 @@ class SignupComponent extends React.Component {
                     <Col md={20} className="signup-box">
                         <h4 className="signup">Sign-Up</h4>
                         <form onSubmit={this.handleSubmit}>
-                                   <label> Full Name: </label>
-                         <MDBInput type="text" getValue={this.state.fullname} onChange={this.handleFullname} />
+                                   {/* <label> Full Name: </label>
+                         <MDBInput type="text" getValue={this.state.fullname} onChange={this.handleFullname} /> */}
                                     {/* <input type="text" value={this.state.fullname} onChange={this.handleFullname} />	 */}
                                     <label> Username: </label>
                          <MDBInput type="text" getValue={this.state.username} onChange={this.handleUsername} />
@@ -35,7 +35,7 @@ class SignupComponent extends React.Component {
                                     <label> Password: </label>
                          <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
                          <MDBInput type="submit" value="Submit" />
-                            <input type="submit" value="Submit" />
+                           
 
                             <br>
                             </br>
@@ -43,15 +43,15 @@ class SignupComponent extends React.Component {
                                     <MDBInput type="text" getValue={this.state.fullname} onChange={this.handleFullname} />
                                     <input type="text" value={this.state.fullname} onChange={this.handleFullname}	 */}
 
-                            <MDBInput type="text" getValue={this.state.username} onChange={this.handleUsername} />
+                            {/* <MDBInput type="text" getValue={this.state.username} onChange={this.handleUsername} /> */}
 
                             {/* <label> Username: </label> */}
                             {/* <input type="text" value={this.state.username} onChange={this.handleUsername} /> */}
                             {/* <label> Password: </label> */}
                           
-                           <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
+                           {/* <MDBInput type="text" group type="password" getValue={this.state.password} onChange={this.handlePassword} />
                             
-                            <MDBInput type="submit" value="Submit" />
+                            <MDBInput type="submit" value="Submit" /> */}
                             {/* <input type="submit" value="Submit" /> */}
                         </form>
                     </Col >
