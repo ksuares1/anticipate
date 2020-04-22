@@ -8,7 +8,7 @@ After cloning this repository to your terminal, do an npm install to ensure that
 
 <br>
 </br>
-Prerequisites
+<font size="+2">Prerequisites</font>
 <hr>
 </hr>
 These are some libraries that you will need to install for this application.
