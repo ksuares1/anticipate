@@ -11,9 +11,7 @@ After cloning this repository to your terminal, do an npm install to ensure that
 These are some libraries that you will need to install for this application.
 
 > npm i
-
-npm init -y
-
-npm i express
+> npm init -y
+> npm i express
 
 
