@@ -2,10 +2,10 @@ import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+// import TeamPage from './components/Nurse/';
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
-import { MDBContainer, MDBAlert, MDBRow, MDBCol } from 'mdbreact';
-// import TeamComponent from '../Nurse/Team';
+// import { MDBContainer, MDBAlert, MDBRow, MDBCol } from 'mdbreact';
 //  import Microphone from "../../pages/Mic.js";
 
 function showMic() {
@@ -21,7 +21,13 @@ function showMic() {
 
             <br>
             </br>
-             <MDBContainer className="team-container">
+
+
+
+
+
+            
+            {/* <MDBContainer className="team-container">
                 <MDBAlert color="light" >
                     <h1>Meet the Team</h1>
                     <br>
@@ -43,8 +49,7 @@ function showMic() {
                      </MDBCol>
                      </MDBRow>
                     </MDBAlert>
-      </MDBContainer>
-  
+ </MDBContainer> */}
             <br>
             </br>
             <Jumbotron className="coming-soon">
