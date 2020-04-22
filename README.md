@@ -34,10 +34,12 @@ These are some libraries that you will need to install for this application.
 ## Collaborators
 
 Kimberly Suares : https://www.linkedin.com/in/kimberlysuares/    
-                  http://github.com/ksuares1
+                       
+                       http://github.com/ksuares1
 
 Miriam Duverge :  https://www.linkedin.com/in/mia-duverge/ 
-                  https://github.com/mia-duv
+                       
+                       https://github.com/mia-duv
 
 ## Links
 Anticipate Recording: https://drive.google.com/file/d/1nIx3Lpc6o8P66IPsU6E9mtxD2i1WHd3f/view
