@@ -24,10 +24,9 @@ These are some libraries that you will need to install for this application.
 
 **Reactstrap** https://react-bootstrap.netlify.com/components/buttons/
 
-**MDBReact**
+**MDBReact** https://mdbootstrap.com/docs/react/
 
 **Node.js**
 
 **Mongodb**
 
-**Node.js**
