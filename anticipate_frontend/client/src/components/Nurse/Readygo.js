@@ -21,18 +21,20 @@ function showMic() {
 
             <br>
             </br>
-                <MDBContainer className="team-container">
-                <Col></Col>
+            {/* <MDBContainer className="team-container">
                 <MDBAlert color="light" >
                     <h1>Meet the Team</h1>
                     <br>
                     </br>
                     <h2 className="picture-one"> Kimberly Suares</h2>
                     <img className="picture-one d-circle w-25" src={require("../../assets/img/Kimberly.JPG")} alt="Kimberly Suares" />
+                    <p>Full Stack Web Developer</p>
+                    
                     <h2> Miriam Duverge</h2>
                     <img className="d-circle w-25" src={require("../../assets/img/Mia.png")} alt="Mia" />
+                    <p></p>
                     </MDBAlert>
-      </MDBContainer>
+      </MDBContainer> */}
     );
             <br>
             </br>
