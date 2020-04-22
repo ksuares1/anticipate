@@ -26,7 +26,7 @@ These are some libraries that you will need to install for this application.
 
 **MDBReact** -  https://mdbootstrap.com/docs/react/
 
-**Node.js** -
+**Node.js** - https://github.com/nodejs/node
 
-**Mongodb** -
+**Mongodb** - https://github.com/mongodb/mongo
 
