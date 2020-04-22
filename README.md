@@ -12,6 +12,5 @@ These are some applications that you will need to install for this application.
 <br>
 </br>
 npm i
-npm init -y
-npm i express
+
 
