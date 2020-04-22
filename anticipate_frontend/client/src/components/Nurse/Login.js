@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import Col from "react-bootstrap/Col";
+// import Col from "react-bootstrap/Col";
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
 
 class LoginComponent extends React.Component {
