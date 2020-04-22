@@ -2,9 +2,9 @@ import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
-import { MDBContainer, MDBAlert } from 'mdbreact';
+import { MDBContainer, MDBAlert, MDBRow, MDBCol } from 'mdbreact';
 // import TeamComponent from '../Nurse/Team';
 //  import Microphone from "../../pages/Mic.js";
 
@@ -21,21 +21,30 @@ function showMic() {
 
             <br>
             </br>
-            {/* <MDBContainer className="team-container">
+             <MDBContainer className="team-container">
                 <MDBAlert color="light" >
                     <h1>Meet the Team</h1>
                     <br>
                     </br>
-                    <h2 className="picture-one"> Kimberly Suares</h2>
-                    <img className="picture-one d-circle w-25" src={require("../../assets/img/Kimberly.JPG")} alt="Kimberly Suares" />
+                    <MDBRow>
+                  <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
+                    <img className="picture-one d-circle w-25" src={require("../../assets/img/Kimberly.JPG")} className="rounded z-depth-1-half img-fluid" alt="Kimberly Suares" />
+                    <h5 className="font-weight-bold mt-4 mb-3"> Kimberly Suares</h5>
                     <p>Full Stack Web Developer</p>
-                    
-                    <h2> Miriam Duverge</h2>
-                    <img className="d-circle w-25" src={require("../../assets/img/Mia.png")} alt="Mia" />
+            </MDBCol>
+            </MDBRow>
+           
+                    <MDBRow>
+                  <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
+                    <img className="d-circle w-5" src={require("../../assets/img/Mia.png")} alt="Mia" />
+                    <h5> Miriam Duverge</h5>
+                    <p>Full Stack Engineer</p>
                     <p></p>
+                     </MDBCol>
+                     </MDBRow>
                     </MDBAlert>
-      </MDBContainer> */}
-    );
+      </MDBContainer>
+  
             <br>
             </br>
             <Jumbotron className="coming-soon">
