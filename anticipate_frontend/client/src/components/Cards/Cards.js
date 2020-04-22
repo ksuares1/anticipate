@@ -10,7 +10,7 @@ import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText,
 
 const CardComponent = () => {
   return (
-    <MDBCardGroup>
+    <MDBCardGroup className="text-align:center">
       <MDBCard>
         <MDBCardImage src={require("../../assets/img/nurse-lab.jpg")} alt=" Nurse" top hover
           overlay="white-slight" />
@@ -25,11 +25,11 @@ const CardComponent = () => {
         </MDBCardBody>
       </MDBCard>
 
-      <MDBCard>
+      <MDBCard className="text-align:center">
         <MDBCardImage src={require("../../assets/img/family.jpg")} alt="Family" top hover
           overlay="white-slight" />
         <MDBCardBody>
-          <MDBCardTitle tag="h5">Family</MDBCardTitle>
+          <MDBCardTitle  tag="h5">Family</MDBCardTitle>
           <MDBCardText>
             Connecting to our love one's when is an important part of their health journey. 
             Login to your account to view the latest medications being administered to your family member. 
@@ -49,7 +49,7 @@ const CardComponent = () => {
           Nurses can quickly and securely see  the latest medicial updates on their patients.
           </MDBCardText>
           <MDBBtn  href="/patient" color="primary" size="md">
-            read more
+            Update
           </MDBBtn>
         </MDBCardBody>
       </MDBCard>
