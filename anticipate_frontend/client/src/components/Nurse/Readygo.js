@@ -2,7 +2,8 @@ import React from "react";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-// import TeamPage from './components/Nurse/';
+// import {  MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+// import TeamPage from '/Team';
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
 // import { MDBContainer, MDBAlert, MDBRow, MDBCol } from 'mdbreact';
@@ -21,13 +22,7 @@ function showMic() {
 
             <br>
             </br>
-
-
-
-
-
-            
-            {/* <MDBContainer className="team-container">
+             {/* <MDBContainer className="team-container">
                 <MDBAlert color="light" >
                     <h1>Meet the Team</h1>
                     <br>

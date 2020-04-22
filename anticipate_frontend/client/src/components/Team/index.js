@@ -16,7 +16,7 @@ const TeamPage = () => {
             <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
               <MDBAvatar
                 tag="img"
-                src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg"
+                src="Kimberly.JPG"
                 className="rounded-circle z-depth-1 img-fluid"
                 alt="Kimbery Suares"
               />

@@ -52,6 +52,7 @@ module.exports = {
                     // if (!dbModel.checkUsername(username)) {
                     //     return done(null, false, { message: 'Incorrect username' })
                     // }
+                    
                     if (!dbModel.checkPassword(password)) {
                         return done(null, false, { message: 'Incorrect password' })
                     }
