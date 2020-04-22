@@ -33,4 +33,5 @@ These are some libraries that you will need to install for this application.
 ## Collaborators
 
 Kimberly Suares : http://github.com/ksuares1
+
 Miriam Duverge : https://github.com/mia-duv
