@@ -18,8 +18,13 @@ These are some libraries that you will need to install for this application.
 
 ## Built With 
 **React.js**
+
 **Reactstrap**
+
 **MDBReact**
+
 **Node.js**
+
 **Mongodb**
+
 **Node.js**
