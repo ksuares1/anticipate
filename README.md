@@ -12,11 +12,11 @@ These are some libraries that you will need to install for this application.
 
 ``` npm i ```
 
-> npm init -y
+``` npm init -y ```
 
-> npm i express
+``` npm i express ```
 
->npm install react-router-dom
+``` npm install react-router-dom ```
 
 ## Built With 
 
