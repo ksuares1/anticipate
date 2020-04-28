@@ -31,13 +31,6 @@ These are some libraries that you will need to install for this application.
 **Node.js** - https://github.com/nodejs/node
 
 **Mongodb** - https://github.com/mongodb/mongo
-
-## Collaborators
-
-Kimberly Suares : https://www.linkedin.com/in/kimberlysuares/    
-                     
-
-Miriam Duverge :  https://www.linkedin.com/in/mia-duverge/ 
                         
 
 ## Links
