@@ -35,11 +35,11 @@ These are some libraries that you will need to install for this application.
 ## Meet the Team
 Kimberly Suares: www.linkedin.com/in/kimberlysuares
 
-Designed front-end and back-end design, layout, and workflow for the application. Utilized frameworks such as React.js, Mongodb, Mongoose, to create nurse sign and login pages, and Passport.js to hash users passwords. 
+- Designed front-end and back-end design, layout, and workflow for the application. Utilized frameworks such as React.js, Mongodb,     Mongoose, to create nurse sign and login pages, and Passport.js to hash users passwords. 
 
 Miriam Duverge: https://www.linkedin.com/in/mia-duverge/
 
-Created patient, family pages, and database to store patients vitals and medication. 
+- Created patient, family pages, and database to store patients vitals and medication. 
 
 ## Links
 Anticipate Recording: https://drive.google.com/file/d/1nIx3Lpc6o8P66IPsU6E9mtxD2i1WHd3f/view
