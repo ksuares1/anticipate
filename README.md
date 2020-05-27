@@ -23,6 +23,8 @@ These are some libraries that you will need to install for this application.
 
 ``` npm install react-router-dom ```
 
+```npm install --save mdbreact ```
+
 ## Built With 
 
 **React.js** - https://github.com/facebook/create-react-app
