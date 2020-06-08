@@ -44,7 +44,7 @@ Kimberly Suares: www.linkedin.com/in/kimberlysuares
 
 Miriam Duverge: https://www.linkedin.com/in/mia-duverge/
 
-- Created patient, family pages, and database to store patients vitals and medication. 
+- Created patient and family pages, and database to store patients vitals and medication. 
 
 ## Links
 Anticipate Recording: https://drive.google.com/file/d/1nIx3Lpc6o8P66IPsU6E9mtxD2i1WHd3f/view
