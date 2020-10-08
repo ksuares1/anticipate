@@ -40,7 +40,8 @@ These are some libraries that you will need to install for this application.
 ## Meet the Team
 Kimberly Suares: www.linkedin.com/in/kimberlysuares
 
-- Designed front-end and back-end design, layout, and workflow for the application. Utilized frameworks such as React.js, Mongodb,     Mongoose, to create nurse sign and login pages, and Passport.js to hash users passwords. 
+- Designed front-end and back-end design, layout, and workflow for the application.
+-Utilized frameworks such as React.js, Mongodb, Mongoose, to create nurse sign and login pages, and Passport.js to hash users passwords. 
 
 Miriam Duverge: https://www.linkedin.com/in/mia-duverge/
 
