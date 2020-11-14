@@ -21,6 +21,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "if-env": "^1.0.4",
+    "mdbreact": "^4.27.0",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.7",
     "morgan": "^1.10.0",
