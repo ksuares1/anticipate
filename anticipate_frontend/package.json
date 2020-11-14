@@ -4,14 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js && npm run client",
+    "start": "node ./dist/index.js",
+    "heroku-postbuild": "npm run build",
+    "build": "rm -rf dist && babel server --out-dir ./dist --source-maps",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
     "client": "cd client && npm run start",
     "server": "nodemon server.js",
     "seed": "node scripts/seedDB.js",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "install": "cd client && npm install"
   },
   "author": "",
   "license": "ISC",
